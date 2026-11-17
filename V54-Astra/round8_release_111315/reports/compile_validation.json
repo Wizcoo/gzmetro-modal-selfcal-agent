@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "native_execution": false,
+  "scope": "C++17 compile-time boundary assertions, public API syntax and full implementation object compilation; no new DLL or EXE executed.",
+  "source_sha256": {
+    "ModalSelfCal.cpp": "efa35498067c0fbdef7d3d7666fb32f024889aa0a6e533c5e2efe0ce082d6210",
+    "ModalSelfCal.h": "9e9720eed28b0b914891bfb24d00902d9ecc0f298109f1f5c995410cc77af2b9"
+  },
+  "commands": [
+    {
+      "command": [
+        "C:\\msys64\\ucrt64\\bin\\g++.exe",
+        "-std=c++17",
+        "-fsyntax-only",
+        "-I",
+        "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\source",
+        "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\tools\\compile_check.cpp"
+      ],
+      "returncode": 0,
+      "log": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\build\\compile_1.log"
+    },
+    {
+      "command": [
+        "C:\\msys64\\ucrt64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-c",
+        "-I",
+        "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\source",
+        "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\source\\ModalSelfCal.cpp",
+        "-o",
+        "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\build\\ModalSelfCal.o"
+      ],
+      "returncode": 0,
+      "log": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round8_release_111315\\build\\compile_2.log"
+    }
+  ]
+}

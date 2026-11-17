@@ -1,0 +1,15 @@
+{
+  "file": "V54-Astra_单cpp单h_12设备_1113-1115初始状态.zip",
+  "bytes": 3096320,
+  "sha256": "e0f53f03e62fe7f8ef13f24686718c6dd2f548358286e9f9c3d31aa11b86ad27",
+  "entries": 50,
+  "cpp_files": 1,
+  "h_files": 1,
+  "primary_states": 12,
+  "backup_states": 12,
+  "rosters": 12,
+  "zip_crc_pass": true,
+  "zip_all_files_byte_equal": true,
+  "state_source_bytes_unchanged": true,
+  "new_wrapper_native_execution": false
+}

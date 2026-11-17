@@ -1,0 +1,283 @@
+{
+  "scope": "Re-aggregation of existing frozen 12-device, 6-common-night modal-only outputs; no model rerun or tuning.",
+  "raw_definition": "ROI-masked input.npz x, pixel units, before W3 and before any correction; [23:00,next07:00) peak-to-peak over finite samples.",
+  "raw_stats_match_quiet_inventory": {
+    "point_nights_checked": 3144,
+    "max_abs_range_difference": 1.7763568394002505e-15,
+    "valid_counts_and_quiet_labels_equal": true
+  },
+  "quiet_alignment": "quiet_inventory: valid>=384 and raw range<=1 pixel. The initial history_length raw_quiet additionally requires absolute 03–06 median minus 22–23 median<=0.5 pixel. Its definition is stricter, but the selected set happens to be exactly the same 74 point-nights in the six common nights; explicit set equality asserted.",
+  "quiet_aligned_all_roles": {
+    "3": {
+      "point_nights": 74,
+      "range_le_1": 74,
+      "range_gt_1": 0,
+      "range_gt_raw_by_0p1": 0,
+      "median_range": 0.3310253594800138
+    },
+    "5": {
+      "point_nights": 74,
+      "range_le_1": 73,
+      "range_gt_1": 1,
+      "range_gt_raw_by_0p1": 1,
+      "median_range": 0.32687951433378637
+    },
+    "7": {
+      "point_nights": 74,
+      "range_le_1": 73,
+      "range_gt_1": 1,
+      "range_gt_raw_by_0p1": 1,
+      "median_range": 0.33222688467915795
+    }
+  },
+  "quiet_aligned_ordinary_J": {
+    "3": {
+      "point_nights": 72,
+      "range_le_1": 72,
+      "range_gt_1": 0,
+      "range_gt_raw_by_0p1": 0,
+      "median_range": 0.33027697464563877
+    },
+    "5": {
+      "point_nights": 72,
+      "range_le_1": 71,
+      "range_gt_1": 1,
+      "range_gt_raw_by_0p1": 1,
+      "median_range": 0.3245210806852544
+    },
+    "7": {
+      "point_nights": 72,
+      "range_le_1": 71,
+      "range_gt_1": 1,
+      "range_gt_raw_by_0p1": 1,
+      "median_range": 0.33054516230632736
+    }
+  },
+  "quiet_aligned_XJ_descriptive": {
+    "3": {
+      "point_nights": 2,
+      "range_le_1": 2,
+      "range_gt_1": 0,
+      "range_gt_raw_by_0p1": 0,
+      "median_range": 0.47459254074583707
+    },
+    "5": {
+      "point_nights": 2,
+      "range_le_1": 2,
+      "range_gt_1": 0,
+      "range_gt_raw_by_0p1": 0,
+      "median_range": 0.4547451528594416
+    },
+    "7": {
+      "point_nights": 2,
+      "range_le_1": 2,
+      "range_gt_1": 0,
+      "range_gt_raw_by_0p1": 0,
+      "median_range": 0.43668194496482005
+    }
+  },
+  "quiet_crossings": [
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "history_length": 5,
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "valid": 480,
+      "range": 1.460117214122489,
+      "p95p5": 0.9836306228525782,
+      "late_range": 1.377794807922979,
+      "late_offset": 0.1830235824890924,
+      "raw_range": 0.9849936962127686,
+      "raw_p95p5": 0.6873454570770265,
+      "raw_late_offset": 0.3497722148895263,
+      "raw_quiet": true,
+      "three_large_then_quiet": false,
+      "prior3_calendar_dates": "2026-11-11,2026-11-12,2026-11-13",
+      "selected_history_dates": "2026-11-09,2026-11-10,2026-11-11,2026-11-12,2026-11-13",
+      "learn": false,
+      "use": true,
+      "gain": 1.0,
+      "relative_J_range": 1.4217918728272183,
+      "relative_J_late_offset": 0.1699259195628297,
+      "relative_XJ_range": null,
+      "relative_XJ_late_offset": null
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "history_length": 7,
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "valid": 480,
+      "range": 1.4790229388512408,
+      "p95p5": 0.871696854048805,
+      "late_range": 1.014141366868902,
+      "late_offset": -0.044547603431388,
+      "raw_range": 0.9849936962127686,
+      "raw_p95p5": 0.6873454570770265,
+      "raw_late_offset": 0.3497722148895263,
+      "raw_quiet": true,
+      "three_large_then_quiet": false,
+      "prior3_calendar_dates": "2026-11-11,2026-11-12,2026-11-13",
+      "selected_history_dates": "2026-11-07,2026-11-08,2026-11-09,2026-11-10,2026-11-11,2026-11-12,2026-11-13",
+      "learn": false,
+      "use": true,
+      "gain": 0.799127705993156,
+      "relative_J_range": 1.4922095055412847,
+      "relative_J_late_offset": -0.0549180124058206,
+      "relative_XJ_range": null,
+      "relative_XJ_late_offset": null
+    }
+  ],
+  "specific_case": [
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "history_length": 3,
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "valid": 480,
+      "range": 0.152027723710213,
+      "p95p5": 0.0323975165223862,
+      "late_range": 0.0466975578204382,
+      "late_offset": -0.0182984307276732,
+      "raw_range": 0.9849936962127686,
+      "raw_p95p5": 0.6873454570770265,
+      "raw_late_offset": 0.3497722148895263,
+      "raw_quiet": true,
+      "three_large_then_quiet": false,
+      "prior3_calendar_dates": "2026-11-11,2026-11-12,2026-11-13",
+      "selected_history_dates": "2026-11-11,2026-11-12,2026-11-13",
+      "learn": true,
+      "use": true,
+      "gain": 1.0,
+      "relative_J_range": 0.2929394123206998,
+      "relative_J_late_offset": -0.0267031823975083,
+      "relative_XJ_range": null,
+      "relative_XJ_late_offset": null
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "history_length": 5,
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "valid": 480,
+      "range": 1.460117214122489,
+      "p95p5": 0.9836306228525782,
+      "late_range": 1.377794807922979,
+      "late_offset": 0.1830235824890924,
+      "raw_range": 0.9849936962127686,
+      "raw_p95p5": 0.6873454570770265,
+      "raw_late_offset": 0.3497722148895263,
+      "raw_quiet": true,
+      "three_large_then_quiet": false,
+      "prior3_calendar_dates": "2026-11-11,2026-11-12,2026-11-13",
+      "selected_history_dates": "2026-11-09,2026-11-10,2026-11-11,2026-11-12,2026-11-13",
+      "learn": false,
+      "use": true,
+      "gain": 1.0,
+      "relative_J_range": 1.4217918728272183,
+      "relative_J_late_offset": 0.1699259195628297,
+      "relative_XJ_range": null,
+      "relative_XJ_late_offset": null
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "history_length": 7,
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "valid": 480,
+      "range": 1.4790229388512408,
+      "p95p5": 0.871696854048805,
+      "late_range": 1.014141366868902,
+      "late_offset": -0.044547603431388,
+      "raw_range": 0.9849936962127686,
+      "raw_p95p5": 0.6873454570770265,
+      "raw_late_offset": 0.3497722148895263,
+      "raw_quiet": true,
+      "three_large_then_quiet": false,
+      "prior3_calendar_dates": "2026-11-11,2026-11-12,2026-11-13",
+      "selected_history_dates": "2026-11-07,2026-11-08,2026-11-09,2026-11-10,2026-11-11,2026-11-12,2026-11-13",
+      "learn": false,
+      "use": true,
+      "gain": 0.799127705993156,
+      "relative_J_range": 1.4922095055412847,
+      "relative_J_late_offset": -0.0549180124058206,
+      "relative_XJ_range": null,
+      "relative_XJ_late_offset": null
+    }
+  ],
+  "arrays": [
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_left_780638327479.npz",
+      "sha256": "efade9e80441793d360ec13e1f66d1362ef9eea0708f009173ad48e2e64ab5d2",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_left_780630499846.npz",
+      "sha256": "66d2c347d28ca6aa44ab9c8d29c68c4aadab3a56899ebb374b5a4b7ccb9f87e7",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_left_780637798298.npz",
+      "sha256": "f4a96cb7991b94de95153d8d2e06c415e50a47f7a7a070a473a4fbae2687af87",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_left_780638271319.npz",
+      "sha256": "2393bfc1b90374e36f9202b75ab726803bbe89fc7e6701a33b0f9825b8d44b83",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_left_780638310097.npz",
+      "sha256": "d22550448fb7682672fb9ecb2bc2a25e96387f21827b5a1ce98965d36bd2e36d",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_left_780638349768.npz",
+      "sha256": "f881b100427fed449585d8d8dcd297adc14c32bfed7e8d8d2bb3559cb55cfa72",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_right_780639173835.npz",
+      "sha256": "bb5e85060c7e1d940c6d9b2bbb884852ad8a1cb06a56e70a23dd0e83b7645ce1",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_right_780639298317.npz",
+      "sha256": "b71dc3df2eb8c4f0df6890ecc85938a3fc1a2c37ad3e5430818959824bfc93ad",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_right_780639333715.npz",
+      "sha256": "75aa27e694d7b8710fd01f67adbc0a915ec82014691042f09d38bb19106671ec",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_right_780639346578.npz",
+      "sha256": "89e7a5483b90876709fac201ec84a8d7994a7ff34ec3435cdf58156f9ffba284",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_right_780639376393.npz",
+      "sha256": "6d3eb2d518c20238d2d1a56e9130a2d7bdee39f9c10e6b462a907156c0e18b5f",
+      "array_count": 37
+    },
+    {
+      "file": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\history_length_arrays_right_780639414923.npz",
+      "sha256": "b6e86ed98ec1183b3520fabc771c15d137357d92c94afe29d59c39cad47bb96e",
+      "array_count": 37
+    }
+  ],
+  "array_contract": "Each NPZ stores exact marker order names and each night YYYY_MM_DD_timestamp/raw/w3/modal_h3/modal_h5/modal_h7. Times span the evaluate helper 22–08 window. Applied modal correction (including gate) = w3-modal_hN. Full ungated modal coefficients are not separately serialized. Absolute pixel coordinates are retained.",
+  "empty_transition_csv_header_restored": true,
+  "report_script_sha256": "361d33e8ae586bbc64f1d983dadf63ea854067615e7b8c9a4dc0df1feaeaa54b"
+}

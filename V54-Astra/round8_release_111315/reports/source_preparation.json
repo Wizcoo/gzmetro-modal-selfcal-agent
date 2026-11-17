@@ -1,0 +1,16 @@
+{
+  "profile": "current_fade07",
+  "source": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round3_physics_failure\\src\\practical_candidate",
+  "publication": "X [23,31) core; outside raw; Y unchanged",
+  "mathematical_core_and_serialization_unchanged": true,
+  "files": {
+    "ModalSelfCal.cpp": {
+      "original_sha256": "2742b355424365dfdc9202b4f989f7d4f9c31634c91eb6da96124b4377800bbd",
+      "release_sha256": "efa35498067c0fbdef7d3d7666fb32f024889aa0a6e533c5e2efe0ce082d6210"
+    },
+    "ModalSelfCal.h": {
+      "original_sha256": "cb00fcc48b595181d9fb88ee1ab91b94bde79cbaa16412e19aafbde81121fc64",
+      "release_sha256": "9e9720eed28b0b914891bfb24d00902d9ecc0f298109f1f5c995410cc77af2b9"
+    }
+  }
+}

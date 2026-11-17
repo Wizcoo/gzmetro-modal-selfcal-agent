@@ -1,0 +1,21 @@
+--- reviewed/ModalSelfCal.cpp
++++ delivery/ModalSelfCal.cpp
+@@ -1792,6 +1792,18 @@
+             p.velocity_damping.NotifyDaytime(ts, r.x);
+         }
+ 
++        // V54-Astra publication contract: ALL internal state updates above remain
++        // unchanged. Match the reviewed R4 selector without another header/call.
++        // This only selects the returned X, never the next frame's cached values.
++        const bool publish_night_x = IsAstraNightCorrectionHour(r.info_x.night_hour);
++        if (!publish_night_x) r.x = x;
++        for (size_t i = 0; i < x.size(); ++i) {
++            if (!std::isfinite(x[i])) r.x[i] = std::numeric_limits<double>::quiet_NaN();
++        }
++        r.x_source = replay ? ModalSelfCalXSource::NoOutput
++            : (publish_night_x ? ModalSelfCalXSource::NightCorrection
++                               : ModalSelfCalXSource::RawObservation);
++
+         double maxc = 0;
+         for (size_t i = 0; i < x.size(); ++i) {
+             double a = x[i] - r.x[i];

@@ -1,0 +1,241 @@
+{
+  "scope": "One-frame, modal-only synthetic audit using frozen real 327479 model from histories11/09-11. No W3/S2/S1, no native runtime, no parameter tuning.",
+  "frozen_model_source": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round11_current_applicability\\reports\\synthetic_constant_core_arrays.npz",
+  "frozen_model_sha256": "f16b572b2fbb0d0d1924e052a6143da5fe3cf822772c281923631e801f31b64d",
+  "column_orthogonality_max_error": 4.440892098500626e-16,
+  "actual_solver": "Unregularized OLS over active valid learning points; >=5 points; singular returns failure; at most two solves with absolute residual threshold2.5.",
+  "thresholds_fixed_from_argon": {
+    "noise_floor": 0.08,
+    "sigma_multiplier": 3.0,
+    "scale": "1.4826 median(abs(LOO)), no centering"
+  },
+  "isolated_steps": [
+    {
+      "marker": "ZD3204",
+      "step": 0.2,
+      "leverage": 0.3604385869110696,
+      "total_guard_0p5_excludes": false,
+      "variants": {
+        "huber": {
+          "target_loo": 0.2,
+          "sigma_median_abs_loo": 0.008870136509917675,
+          "threshold": 0.08,
+          "peer_median_abs_loo": 0.005806775614589815,
+          "target_weight": 0.39999999999999997,
+          "retained_fraction": 0.8160410153493205,
+          "other_stationary_max_false_response": 0.09477392744001098,
+          "fixed_J_max_false_response": 0.010558511540294586,
+          "remaining_weighted_gram_rank": 3
+        },
+        "tukey": {
+          "target_loo": 0.2,
+          "sigma_median_abs_loo": 0.008870136509917675,
+          "threshold": 0.08,
+          "peer_median_abs_loo": 0.005806775614589815,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        },
+        "hard": {
+          "target_loo": 0.2,
+          "sigma_median_abs_loo": 0.008870136509917675,
+          "threshold": 0.08,
+          "peer_median_abs_loo": 0.005806775614589815,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        }
+      }
+    },
+    {
+      "marker": "ZD3204",
+      "step": 1.0,
+      "leverage": 0.3604385869110696,
+      "total_guard_0p5_excludes": false,
+      "variants": {
+        "huber": {
+          "target_loo": 1.0,
+          "sigma_median_abs_loo": 0.04435068254958839,
+          "threshold": 0.13305204764876516,
+          "peer_median_abs_loo": 0.02903387807294909,
+          "target_weight": 0.13305204764876516,
+          "retained_fraction": 0.8862637608320264,
+          "other_stationary_max_false_response": 0.2921111419197557,
+          "fixed_J_max_false_response": 0.028384290204472553,
+          "remaining_weighted_gram_rank": 3
+        },
+        "tukey": {
+          "target_loo": 1.0,
+          "sigma_median_abs_loo": 0.04435068254958839,
+          "threshold": 0.13305204764876516,
+          "peer_median_abs_loo": 0.02903387807294909,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        },
+        "hard": {
+          "target_loo": 1.0,
+          "sigma_median_abs_loo": 0.04435068254958839,
+          "threshold": 0.13305204764876516,
+          "peer_median_abs_loo": 0.02903387807294909,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        }
+      }
+    },
+    {
+      "marker": "ZD4703",
+      "step": 0.2,
+      "leverage": 0.10045953265971057,
+      "total_guard_0p5_excludes": false,
+      "variants": {
+        "huber": {
+          "target_loo": 0.19999999999999998,
+          "sigma_median_abs_loo": 0.011678205473588454,
+          "threshold": 0.08,
+          "peer_median_abs_loo": 0.007858495091793772,
+          "target_weight": 0.4,
+          "retained_fraction": 0.9572387200141288,
+          "other_stationary_max_false_response": 0.007615568939075072,
+          "fixed_J_max_false_response": 0.0062403173882443885,
+          "remaining_weighted_gram_rank": 3
+        },
+        "tukey": {
+          "target_loo": 0.19999999999999998,
+          "sigma_median_abs_loo": 0.011678205473588454,
+          "threshold": 0.08,
+          "peer_median_abs_loo": 0.007858495091793772,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        },
+        "hard": {
+          "target_loo": 0.19999999999999998,
+          "sigma_median_abs_loo": 0.011678205473588454,
+          "threshold": 0.08,
+          "peer_median_abs_loo": 0.007858495091793772,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        }
+      }
+    },
+    {
+      "marker": "ZD4703",
+      "step": 1.0,
+      "leverage": 0.10045953265971057,
+      "total_guard_0p5_excludes": false,
+      "variants": {
+        "huber": {
+          "target_loo": 1.0,
+          "sigma_median_abs_loo": 0.05839102736794225,
+          "threshold": 0.17517308210382676,
+          "peer_median_abs_loo": 0.03929247545896886,
+          "target_weight": 0.17517308210382676,
+          "retained_fraction": 0.9808122652003886,
+          "other_stationary_max_false_response": 0.01708619540848779,
+          "fixed_J_max_false_response": 0.014000698195961371,
+          "remaining_weighted_gram_rank": 3
+        },
+        "tukey": {
+          "target_loo": 1.0,
+          "sigma_median_abs_loo": 0.05839102736794225,
+          "threshold": 0.17517308210382676,
+          "peer_median_abs_loo": 0.03929247545896886,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        },
+        "hard": {
+          "target_loo": 1.0,
+          "sigma_median_abs_loo": 0.05839102736794225,
+          "threshold": 0.17517308210382676,
+          "peer_median_abs_loo": 0.03929247545896886,
+          "target_weight": 0.0,
+          "retained_fraction": 1.0,
+          "other_stationary_max_false_response": 0.0,
+          "fixed_J_max_false_response": 0.0,
+          "remaining_weighted_gram_rank": 3
+        }
+      }
+    }
+  ],
+  "group_event_in_solve_subspace": {
+    "learning_points": 48,
+    "max_true_amplitude": 1.0,
+    "max_abs_loo": 3.4718261668196704e-16,
+    "min_weight": 1.0,
+    "learning_output_max_abs": 2.220446049250313e-16,
+    "stationary_J_max_false_response": 0.5176288198864297,
+    "stationary_nonlearning_max_false_response": 2.675775820130954
+  },
+  "cancellation_fixtures": [
+    {
+      "marker": "ZD3204",
+      "disturbance_assumption": "all_points_uniform_minus1",
+      "target_raw": 0.0,
+      "target_known_true": 1.0,
+      "target_loo": 0.8703919659622046,
+      "threshold": 0.25380786401440003,
+      "target_weight": 0.0,
+      "target_output": 0.4807592251977998,
+      "max_error_vs_true": 0.5192407748022002
+    },
+    {
+      "marker": "ZD3204",
+      "disturbance_assumption": "exact_historical_subspace",
+      "target_raw": -2.220446049250313e-16,
+      "target_known_true": 1.0,
+      "target_loo": 1.0,
+      "threshold": 0.13305204764876494,
+      "target_weight": 0.0,
+      "target_output": 1.0000000000000029,
+      "max_error_vs_true": 7.993605777301127e-15
+    },
+    {
+      "marker": "ZD4703",
+      "disturbance_assumption": "all_points_uniform_minus1",
+      "target_raw": 0.0,
+      "target_known_true": 1.0,
+      "target_loo": 1.2258908648148008,
+      "threshold": 0.3880004579846363,
+      "target_weight": 0.0,
+      "target_output": 1.1881333073966034,
+      "max_error_vs_true": 1.0107993200448373
+    },
+    {
+      "marker": "ZD4703",
+      "disturbance_assumption": "exact_historical_subspace",
+      "target_raw": 0.0,
+      "target_known_true": 1.0,
+      "target_loo": 1.0,
+      "threshold": 0.17517308210382682,
+      "target_weight": 0.0,
+      "target_output": 1.0000000000000004,
+      "max_error_vs_true": 4.440892098500626e-16
+    }
+  ],
+  "uniform_minus1_max_error_of_best_unweighted_learning_projection": 0.20663328776796108,
+  "denominator_floor_counterexample": {
+    "one_parameter_toy": true,
+    "leverage": 0.9996001599360256,
+    "ordinary_residual": 0.0003998400639744215,
+    "exact_deleted_residual": 1.0,
+    "proposed_capped_residual": 0.003998400639744215
+  }
+}

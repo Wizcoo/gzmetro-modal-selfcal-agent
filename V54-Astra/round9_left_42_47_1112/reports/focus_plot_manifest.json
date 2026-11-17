@@ -1,0 +1,180 @@
+{
+  "unit": "pixel",
+  "time_samples": "all actual frames; NaN and >3min gaps break lines",
+  "raw_reference": "per-marker raw22–23 median shared across raw/calX/new",
+  "figures": [
+    {
+      "file": "01_ZXJ6.svg",
+      "title": "最关键残留：327479 / ZXJ6 在两版算法中均出现反向趋势",
+      "panels": [
+        {
+          "title": "A. 原始扰动与两版修后值",
+          "curves": [
+            {
+              "label": "raw X",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "数据库 calX",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "Astra X",
+              "samples": 540,
+              "segments": 1
+            }
+          ]
+        },
+        {
+          "title": "B. 只放大查看两版修后曲线（与上图完全相同样本）",
+          "curves": [
+            {
+              "label": "数据库 calX",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "Astra X",
+              "samples": 540,
+              "segments": 1
+            }
+          ]
+        }
+      ],
+      "sha256": "531e1443cde678df63122c402c4b7c9e4f89de3059f21f321e2979ecc958a651"
+    },
+    {
+      "file": "02_stages.svg",
+      "title": "ZXJ6 逐阶段：反向趋势首先出现在模态扣除，随后增强只小幅改变",
+      "panels": [
+        {
+          "title": "A. 内部模态输出、S2后、最终输出",
+          "curves": [
+            {
+              "label": "模态核心",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "S2后",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "内部最终X",
+              "samples": 540,
+              "segments": 1
+            }
+          ]
+        },
+        {
+          "title": "B. 模态扣除量与送入核心的观测变化",
+          "curves": [
+            {
+              "label": "W3观测变化",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "模态扣除量",
+              "samples": 540,
+              "segments": 1
+            }
+          ]
+        }
+      ],
+      "sha256": "0b33a81185c913a20e615a2db79c57e8a80e7d35a33b41dfc64d8e5dfd2a52ba"
+    },
+    {
+      "file": "03_ZD4703.svg",
+      "title": "同名测点ZD4703在两台设备的表现：按设备分开看",
+      "panels": [
+        {
+          "title": "A. 327479 / ZD4703：修后残留约1.50 pixel",
+          "curves": [
+            {
+              "label": "raw X",
+              "samples": 538,
+              "segments": 3
+            },
+            {
+              "label": "数据库 calX",
+              "samples": 538,
+              "segments": 3
+            },
+            {
+              "label": "Astra X",
+              "samples": 538,
+              "segments": 3
+            }
+          ]
+        },
+        {
+          "title": "B. 349768 / ZD4703：修后范围约0.19 pixel",
+          "curves": [
+            {
+              "label": "raw X",
+              "samples": 539,
+              "segments": 2
+            },
+            {
+              "label": "数据库 calX",
+              "samples": 539,
+              "segments": 2
+            },
+            {
+              "label": "Astra X",
+              "samples": 539,
+              "segments": 2
+            }
+          ]
+        }
+      ],
+      "sha256": "6844d7e99a3da579ae05a41b816e105b62a0c5312c3d5fa2204d0fa59e8490d4"
+    },
+    {
+      "file": "04_relative.svg",
+      "title": "相对关系仍未稳定：目标组、J基准组和ZXJ6的修后变化不同",
+      "panels": [
+        {
+          "title": "A. Astra修后：目标18点、J四点、ZXJ6",
+          "curves": [
+            {
+              "label": "目标组中位",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "J组中位",
+              "samples": 538,
+              "segments": 3
+            },
+            {
+              "label": "ZXJ6",
+              "samples": 540,
+              "segments": 1
+            }
+          ]
+        },
+        {
+          "title": "B. 仅放大目标组与J组（与上图相同数据）",
+          "curves": [
+            {
+              "label": "目标组中位",
+              "samples": 540,
+              "segments": 1
+            },
+            {
+              "label": "J组中位",
+              "samples": 538,
+              "segments": 3
+            }
+          ]
+        }
+      ],
+      "sha256": "f5c2c96ccf104c0f6aafb980714c3261798917a11149e6c2845d1f35a83e960f"
+    }
+  ]
+}

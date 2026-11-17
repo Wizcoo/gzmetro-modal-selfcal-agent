@@ -1,0 +1,31 @@
+{
+  "validation": "C++17 syntax-only integration contract",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -std=c++17 -Wall -Wextra -Werror -fsyntax-only -I V54-Astra/round3_physics_failure/src/practical_candidate V54-Astra/round4_window_causality/integration/NightWindowOutput_compile_check.cpp",
+  "exit_code": 0,
+  "runtime_executed": false,
+  "binary_created": false,
+  "boundary_static_asserts": [
+    "22 raw",
+    "before 23 raw",
+    "23 included",
+    "midnight native hour 24 corrected",
+    "before 07 corrected",
+    "07 excluded",
+    "exit ramp raw"
+  ],
+  "source_hashes": [
+    {
+      "path": "V54-Astra/round4_window_causality/integration/NightWindowOutput.h",
+      "sha256": "33356014d106e4dac8b1af39cf42ce448cb82f539a483d8668a95bdbf5548d01"
+    },
+    {
+      "path": "V54-Astra/round4_window_causality/integration/NightWindowOutput_compile_check.cpp",
+      "sha256": "f126e831e3a68190bb5a62d97d7400990f13c9e56bd4c72ba77e7f6ee85841a9"
+    },
+    {
+      "path": "V54-Astra/round3_physics_failure/src/practical_candidate/ModalSelfCal.h",
+      "sha256": "cb00fcc48b595181d9fb88ee1ab91b94bde79cbaa16412e19aafbde81121fc64"
+    }
+  ],
+  "scope": "Compile-time interface and static boundary assertions only. Parent report separately validates offline routing of frozen outputs; this does not validate core restart or run the C++ adapter."
+}

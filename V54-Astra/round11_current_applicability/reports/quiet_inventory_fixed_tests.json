@@ -1,0 +1,2471 @@
+{
+  "all121_primary_quiet_cases": [
+    {
+      "case_id": "left/780638310097/2026-11-07/ZD2605",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-07",
+      "marker": "ZD2605",
+      "role": "ordinary",
+      "raw_range": 0.9572347402572632,
+      "baseline_new_range": 0.28286637777854906,
+      "baseline_new_p95p5": 0.12249050655969596,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-07/ZD2705",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-07",
+      "marker": "ZD2705",
+      "role": "ordinary",
+      "raw_range": 0.9483236074447632,
+      "baseline_new_range": 0.3276851893958991,
+      "baseline_new_p95p5": 0.12097320984460691,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-07/ZD2905",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-07",
+      "marker": "ZD2905",
+      "role": "ordinary",
+      "raw_range": 0.9355957061052322,
+      "baseline_new_range": 0.2254379049994818,
+      "baseline_new_p95p5": 0.11577355136917944,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-07/ZD3005",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-07",
+      "marker": "ZD3005",
+      "role": "ordinary",
+      "raw_range": 0.8563232421875,
+      "baseline_new_range": 0.2560369273455456,
+      "baseline_new_p95p5": 0.13857637293600977,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-07/ZD3405",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-07",
+      "marker": "ZD3405",
+      "role": "ordinary",
+      "raw_range": 0.8783772587776184,
+      "baseline_new_range": 0.41754695579604173,
+      "baseline_new_p95p5": 0.1833374472214626,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-07/ZD3505",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-07",
+      "marker": "ZD3505",
+      "role": "ordinary",
+      "raw_range": 0.8828613311052322,
+      "baseline_new_range": 0.33339195274889594,
+      "baseline_new_p95p5": 0.1946788340072363,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2202",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2202",
+      "role": "ordinary",
+      "raw_range": 0.9863892197608948,
+      "baseline_new_range": 0.24646994501257957,
+      "baseline_new_p95p5": 0.12465487157111199,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2205",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2205",
+      "role": "ordinary",
+      "raw_range": 0.8961588144302368,
+      "baseline_new_range": 0.19646557436484868,
+      "baseline_new_p95p5": 0.09126979892191867,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2305",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2305",
+      "role": "ordinary",
+      "raw_range": 0.9549560248851776,
+      "baseline_new_range": 0.17260586274548229,
+      "baseline_new_p95p5": 0.10040020917110315,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2405",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2405",
+      "role": "ordinary",
+      "raw_range": 0.9660237729549408,
+      "baseline_new_range": 0.23835277481516992,
+      "baseline_new_p95p5": 0.11222763908101019,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2505",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2505",
+      "role": "ordinary",
+      "raw_range": 0.9389241337776184,
+      "baseline_new_range": 0.22294752337054757,
+      "baseline_new_p95p5": 0.10346811037540893,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2605",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2605",
+      "role": "ordinary",
+      "raw_range": 0.9060059189796448,
+      "baseline_new_range": 0.19221591740791677,
+      "baseline_new_p95p5": 0.09957016756182857,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2705",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2705",
+      "role": "ordinary",
+      "raw_range": 0.8826904296875,
+      "baseline_new_range": 0.22927310726595462,
+      "baseline_new_p95p5": 0.13834989987240398,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2804",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2804",
+      "role": "ordinary",
+      "raw_range": 0.9805907905101776,
+      "baseline_new_range": 0.22801563554022897,
+      "baseline_new_p95p5": 0.1133484017725288,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2805",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2805",
+      "role": "ordinary",
+      "raw_range": 0.8621011972427368,
+      "baseline_new_range": 0.2271155911125553,
+      "baseline_new_p95p5": 0.1073287243489287,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD2905",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD2905",
+      "role": "ordinary",
+      "raw_range": 0.8660888671875,
+      "baseline_new_range": 0.257679665094773,
+      "baseline_new_p95p5": 0.10898787714434066,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3004",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3004",
+      "role": "ordinary",
+      "raw_range": 0.9833577424287796,
+      "baseline_new_range": 0.22708097518020942,
+      "baseline_new_p95p5": 0.1302127870556049,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3005",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3005",
+      "role": "ordinary",
+      "raw_range": 0.8120726943016052,
+      "baseline_new_range": 0.24680117203113272,
+      "baseline_new_p95p5": 0.11034824290175393,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3104",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3104",
+      "role": "ordinary",
+      "raw_range": 0.918050080537796,
+      "baseline_new_range": 0.1972142110820474,
+      "baseline_new_p95p5": 0.11039685395929255,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3105",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3105",
+      "role": "ordinary",
+      "raw_range": 0.868184357881546,
+      "baseline_new_range": 0.24120819729327148,
+      "baseline_new_p95p5": 0.12439856256072179,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3205",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3205",
+      "role": "ordinary",
+      "raw_range": 0.8457438349723816,
+      "baseline_new_range": 0.27899304427294513,
+      "baseline_new_p95p5": 0.13659503757715363,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3304",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3304",
+      "role": "ordinary",
+      "raw_range": 0.9942220002412796,
+      "baseline_new_range": 0.2587261185467207,
+      "baseline_new_p95p5": 0.10963506110911236,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3305",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3305",
+      "role": "ordinary",
+      "raw_range": 0.8726399838924408,
+      "baseline_new_range": 0.20892794575878937,
+      "baseline_new_p95p5": 0.12359661234627695,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3404",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3404",
+      "role": "ordinary",
+      "raw_range": 0.9748535356484354,
+      "baseline_new_range": 0.23906835888716305,
+      "baseline_new_p95p5": 0.09191450817100899,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3405",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3405",
+      "role": "ordinary",
+      "raw_range": 0.92071533203125,
+      "baseline_new_range": 0.18703279174710208,
+      "baseline_new_p95p5": 0.1063790179416676,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3504",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3504",
+      "role": "ordinary",
+      "raw_range": 0.9719644989818335,
+      "baseline_new_range": 0.21037738688734364,
+      "baseline_new_p95p5": 0.09161262013802529,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3505",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3505",
+      "role": "ordinary",
+      "raw_range": 0.9325439929962158,
+      "baseline_new_range": 0.3751933601616453,
+      "baseline_new_p95p5": 0.2413610757641882,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3604",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3604",
+      "role": "ordinary",
+      "raw_range": 0.9330240897834301,
+      "baseline_new_range": 0.2569750829705876,
+      "baseline_new_p95p5": 0.10860566567016416,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3704",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3704",
+      "role": "ordinary",
+      "raw_range": 0.9219970498234034,
+      "baseline_new_range": 0.2559599737785314,
+      "baseline_new_p95p5": 0.10652717358106523,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3804",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3804",
+      "role": "ordinary",
+      "raw_range": 0.9576415605843067,
+      "baseline_new_range": 0.27870967346404574,
+      "baseline_new_p95p5": 0.1010764440471611,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD3904",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD3904",
+      "role": "ordinary",
+      "raw_range": 0.9205240979790688,
+      "baseline_new_range": 0.27411942759497143,
+      "baseline_new_p95p5": 0.09832192787929361,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD4004",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD4004",
+      "role": "ordinary",
+      "raw_range": 0.9943644180893898,
+      "baseline_new_range": 0.2860967610379661,
+      "baseline_new_p95p5": 0.11226419199923754,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD4204",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD4204",
+      "role": "ordinary",
+      "raw_range": 0.9263916015625,
+      "baseline_new_range": 0.31327047602731106,
+      "baseline_new_p95p5": 0.15696228948341984,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD4304",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD4304",
+      "role": "ordinary",
+      "raw_range": 0.9174967110157013,
+      "baseline_new_range": 0.2926480142210809,
+      "baseline_new_p95p5": 0.10187929442866306,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD4404",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "raw_range": 0.991162121295929,
+      "baseline_new_range": 0.3465152276672986,
+      "baseline_new_p95p5": 0.1472101893789005,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-14/ZD4604",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-14",
+      "marker": "ZD4604",
+      "role": "ordinary",
+      "raw_range": 0.9607259184122086,
+      "baseline_new_range": 0.28370697904518166,
+      "baseline_new_p95p5": 0.13647279056683825,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638310097/2026-11-15/ZD2805",
+      "line": "left",
+      "device": "780638310097",
+      "night": "2026-11-15",
+      "marker": "ZD2805",
+      "role": "ordinary",
+      "raw_range": 0.9482910633087158,
+      "baseline_new_range": 0.3855948276727843,
+      "baseline_new_p95p5": 0.14568931024145604,
+      "valid": 460,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-07/ZD3705",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-07",
+      "marker": "ZD3705",
+      "role": "ordinary",
+      "raw_range": 0.9874674081802368,
+      "baseline_new_range": 0.40383243258055,
+      "baseline_new_p95p5": 0.2700488657048239,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-07/ZD3805",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-07",
+      "marker": "ZD3805",
+      "role": "ordinary",
+      "raw_range": 0.9706217050552368,
+      "baseline_new_range": 0.3700241636873294,
+      "baseline_new_p95p5": 0.21248391763775887,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-14/ZD3605",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-14",
+      "marker": "ZD3605",
+      "role": "ordinary",
+      "raw_range": 0.8960041999816895,
+      "baseline_new_range": 0.40120376840550387,
+      "baseline_new_p95p5": 0.23208129152524215,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-14/ZD3705",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-14",
+      "marker": "ZD3705",
+      "role": "ordinary",
+      "raw_range": 0.8605551719665527,
+      "baseline_new_range": 0.3352724006987944,
+      "baseline_new_p95p5": 0.21463935362324804,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-14/ZD3805",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-14",
+      "marker": "ZD3805",
+      "role": "ordinary",
+      "raw_range": 0.8562824726104736,
+      "baseline_new_range": 0.29337850138728605,
+      "baseline_new_p95p5": 0.22146961176290425,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-14/ZD3905",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-14",
+      "marker": "ZD3905",
+      "role": "ordinary",
+      "raw_range": 0.8980712890625,
+      "baseline_new_range": 0.3479983360068366,
+      "baseline_new_p95p5": 0.2195554880207342,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-14/ZD4003",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-14",
+      "marker": "ZD4003",
+      "role": "ordinary",
+      "raw_range": 0.9764729738235474,
+      "baseline_new_range": 0.23566637195925866,
+      "baseline_new_p95p5": 0.09020081014379722,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-14/ZD4103",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-14",
+      "marker": "ZD4103",
+      "role": "ordinary",
+      "raw_range": 0.9534913301467896,
+      "baseline_new_range": 0.19679348599516855,
+      "baseline_new_p95p5": 0.10112784634141603,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-15/ZD3503",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-15",
+      "marker": "ZD3503",
+      "role": "ordinary",
+      "raw_range": 0.9927570819854736,
+      "baseline_new_range": 0.2868115477197457,
+      "baseline_new_p95p5": 0.12620670809867018,
+      "valid": 456,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638327479/2026-11-15/ZD3705",
+      "line": "left",
+      "device": "780638327479",
+      "night": "2026-11-15",
+      "marker": "ZD3705",
+      "role": "ordinary",
+      "raw_range": 0.9402260780334473,
+      "baseline_new_range": 0.5587949090371813,
+      "baseline_new_p95p5": 0.24070320473784035,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-07/ZD4505",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "marker": "ZD4505",
+      "role": "ordinary",
+      "raw_range": 0.9217936992645264,
+      "baseline_new_range": 0.2047605582097678,
+      "baseline_new_p95p5": 0.054336075108955884,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-07/ZD4603",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "marker": "ZD4603",
+      "role": "ordinary",
+      "raw_range": 0.9959311485290527,
+      "baseline_new_range": 0.1290317818487745,
+      "baseline_new_p95p5": 0.06713506515847945,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-07/ZD4605",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "marker": "ZD4605",
+      "role": "ordinary",
+      "raw_range": 0.9508259296417236,
+      "baseline_new_range": 0.1836541953453028,
+      "baseline_new_p95p5": 0.048872232427684015,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-07/ZD4702",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "marker": "ZD4702",
+      "role": "ordinary",
+      "raw_range": 0.9871826171875,
+      "baseline_new_range": 0.16256760199577514,
+      "baseline_new_p95p5": 0.08011068836190915,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-07/ZD4705",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "marker": "ZD4705",
+      "role": "ordinary",
+      "raw_range": 0.9376628398895264,
+      "baseline_new_range": 0.2100771168393818,
+      "baseline_new_p95p5": 0.052785235519299034,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-07/ZJ8",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "marker": "ZJ8",
+      "role": "J",
+      "raw_range": 0.9141846895217896,
+      "baseline_new_range": 0.18555979075816564,
+      "baseline_new_p95p5": 0.09636896614364532,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZD4404",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZD4404",
+      "role": "ordinary",
+      "raw_range": 0.9849936962127686,
+      "baseline_new_range": 0.1396701014548496,
+      "baseline_new_p95p5": 0.02663770513426833,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZD4505",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZD4505",
+      "role": "ordinary",
+      "raw_range": 0.9179282188415527,
+      "baseline_new_range": 0.12165817805251855,
+      "baseline_new_p95p5": 0.05789355663536755,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZD4605",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZD4605",
+      "role": "ordinary",
+      "raw_range": 0.9187827110290527,
+      "baseline_new_range": 0.09667602499268213,
+      "baseline_new_p95p5": 0.052456886620897425,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZD4703",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZD4703",
+      "role": "ordinary",
+      "raw_range": 0.9273598194122314,
+      "baseline_new_range": 0.2036147221812148,
+      "baseline_new_p95p5": 0.09066383062632655,
+      "valid": 477,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZD4705",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZD4705",
+      "role": "ordinary",
+      "raw_range": 0.878662109375,
+      "baseline_new_range": 0.17009845229827647,
+      "baseline_new_p95p5": 0.057655054076482415,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZJ6",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZJ6",
+      "role": "J",
+      "raw_range": 0.99462890625,
+      "baseline_new_range": 0.19459489290494414,
+      "baseline_new_p95p5": 0.09373279616530583,
+      "valid": 476,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZJ7",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZJ7",
+      "role": "J",
+      "raw_range": 0.9595053195953369,
+      "baseline_new_range": 0.17938117671839748,
+      "baseline_new_p95p5": 0.09122662390406955,
+      "valid": 476,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-14/ZJ8",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "marker": "ZJ8",
+      "role": "J",
+      "raw_range": 0.9693603515625,
+      "baseline_new_range": 0.2123255707227547,
+      "baseline_new_p95p5": 0.10674343574323508,
+      "valid": 477,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-15/ZD4503",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "marker": "ZD4503",
+      "role": "ordinary",
+      "raw_range": 0.9856362342834473,
+      "baseline_new_range": 0.12038416055389245,
+      "baseline_new_p95p5": 0.050364713424090546,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-15/ZD4505",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "marker": "ZD4505",
+      "role": "ordinary",
+      "raw_range": 0.9338581562042236,
+      "baseline_new_range": 0.10100402158220279,
+      "baseline_new_p95p5": 0.04680621635871551,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-15/ZD4603",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "marker": "ZD4603",
+      "role": "ordinary",
+      "raw_range": 0.9748945236206055,
+      "baseline_new_range": 0.1002048738807364,
+      "baseline_new_p95p5": 0.043273247616559374,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-15/ZD4703",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "marker": "ZD4703",
+      "role": "ordinary",
+      "raw_range": 0.9106850624084473,
+      "baseline_new_range": 0.1971525967458967,
+      "baseline_new_p95p5": 0.059190187940657335,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-15/ZJ7",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "marker": "ZJ7",
+      "role": "J",
+      "raw_range": 0.9884235858917236,
+      "baseline_new_range": 0.16557373108767992,
+      "baseline_new_p95p5": 0.06812692698238187,
+      "valid": 477,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "left/780638349768/2026-11-15/ZJ8",
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "marker": "ZJ8",
+      "role": "J",
+      "raw_range": 0.9941327571868896,
+      "baseline_new_range": 0.1687905554152893,
+      "baseline_new_p95p5": 0.062087354482214696,
+      "valid": 477,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "right/780639173835/2026-11-07/YD1105",
+      "line": "right",
+      "device": "780639173835",
+      "night": "2026-11-07",
+      "marker": "YD1105",
+      "role": "ordinary",
+      "raw_range": 0.9782714433968067,
+      "baseline_new_range": 0.3363804335323345,
+      "baseline_new_p95p5": 0.19339539039557996,
+      "valid": 477,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639173835/2026-11-07/YD1405",
+      "line": "right",
+      "device": "780639173835",
+      "night": "2026-11-07",
+      "marker": "YD1405",
+      "role": "ordinary",
+      "raw_range": 0.9778646035119891,
+      "baseline_new_range": 0.4066511411287067,
+      "baseline_new_p95p5": 0.28458687493401047,
+      "valid": 476,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639173835/2026-11-07/YD1505",
+      "line": "right",
+      "device": "780639173835",
+      "night": "2026-11-07",
+      "marker": "YD1505",
+      "role": "ordinary",
+      "raw_range": 0.9619344174861908,
+      "baseline_new_range": 0.37525180427634736,
+      "baseline_new_p95p5": 0.20070662841325582,
+      "valid": 476,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639173835/2026-11-07/YD805",
+      "line": "right",
+      "device": "780639173835",
+      "night": "2026-11-07",
+      "marker": "YD805",
+      "role": "ordinary",
+      "raw_range": 0.9237630069255829,
+      "baseline_new_range": 0.16727999337926008,
+      "baseline_new_p95p5": 0.08371639590316449,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639173835/2026-11-07/YD905",
+      "line": "right",
+      "device": "780639173835",
+      "night": "2026-11-07",
+      "marker": "YD905",
+      "role": "ordinary",
+      "raw_range": 0.994669571518898,
+      "baseline_new_range": 0.17692591057571683,
+      "baseline_new_p95p5": 0.08983476913277794,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-07/YD1002",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-07",
+      "marker": "YD1002",
+      "role": "ordinary",
+      "raw_range": 0.9468831121921539,
+      "baseline_new_range": 0.3378635947348454,
+      "baseline_new_p95p5": 0.19787292778038615,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-07/YD1103",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-07",
+      "marker": "YD1103",
+      "role": "ordinary",
+      "raw_range": 0.928955078125,
+      "baseline_new_range": 0.3801780412407285,
+      "baseline_new_p95p5": 0.19485357589508545,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-07/YD1202",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-07",
+      "marker": "YD1202",
+      "role": "ordinary",
+      "raw_range": 0.8509419560432434,
+      "baseline_new_range": 0.2668021108688535,
+      "baseline_new_p95p5": 0.18096084227187278,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-12/YD1002",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-12",
+      "marker": "YD1002",
+      "role": "ordinary",
+      "raw_range": 0.991455078125,
+      "baseline_new_range": 0.37927843593225885,
+      "baseline_new_p95p5": 0.22897188560181128,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-12/YD1102",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-12",
+      "marker": "YD1102",
+      "role": "ordinary",
+      "raw_range": 0.95654296875,
+      "baseline_new_range": 0.45399505358365777,
+      "baseline_new_p95p5": 0.23028214070193448,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-12/YD1202",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-12",
+      "marker": "YD1202",
+      "role": "ordinary",
+      "raw_range": 0.9684285819530487,
+      "baseline_new_range": 0.4143807043900262,
+      "baseline_new_p95p5": 0.24842977488258688,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639298317/2026-11-13/YD1202",
+      "line": "right",
+      "device": "780639298317",
+      "night": "2026-11-13",
+      "marker": "YD1202",
+      "role": "ordinary",
+      "raw_range": 0.9516276270151138,
+      "baseline_new_range": 0.43904741781420853,
+      "baseline_new_p95p5": 0.23209461706478804,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-06/YD1302",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-06",
+      "marker": "YD1302",
+      "role": "ordinary",
+      "raw_range": 0.7226969599723816,
+      "baseline_new_range": 0.45355809973273986,
+      "baseline_new_p95p5": 0.23436459870395038,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-06/YD1402",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-06",
+      "marker": "YD1402",
+      "role": "ordinary",
+      "raw_range": 0.9359700381755829,
+      "baseline_new_range": 0.6859545864829732,
+      "baseline_new_p95p5": 0.40508291466344915,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-06/YD1601",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-06",
+      "marker": "YD1601",
+      "role": "ordinary",
+      "raw_range": 0.9421223700046539,
+      "baseline_new_range": 0.5671106008205814,
+      "baseline_new_p95p5": 0.28922248319200494,
+      "valid": 477,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1302",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1302",
+      "role": "ordinary",
+      "raw_range": 0.759472668170929,
+      "baseline_new_range": 0.38013206283024703,
+      "baseline_new_p95p5": 0.1708113083718653,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1402",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1402",
+      "role": "ordinary",
+      "raw_range": 0.7176839411258698,
+      "baseline_new_range": 0.4338892862678647,
+      "baseline_new_p95p5": 0.22297835487781725,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1405",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1405",
+      "role": "ordinary",
+      "raw_range": 0.7426757663488388,
+      "baseline_new_range": 0.33311522682374883,
+      "baseline_new_p95p5": 0.1862744956794367,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1502",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1502",
+      "role": "ordinary",
+      "raw_range": 0.8973958194255829,
+      "baseline_new_range": 0.5464289697372415,
+      "baseline_new_p95p5": 0.23908076502804096,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1505",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1505",
+      "role": "ordinary",
+      "raw_range": 0.846691906452179,
+      "baseline_new_range": 0.39498208017016345,
+      "baseline_new_p95p5": 0.1789473886551416,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1601",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1601",
+      "role": "ordinary",
+      "raw_range": 0.872241199016571,
+      "baseline_new_range": 0.3624652427441518,
+      "baseline_new_p95p5": 0.22227411922569773,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1602",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1602",
+      "role": "ordinary",
+      "raw_range": 0.9583740532398224,
+      "baseline_new_range": 0.41525806046735453,
+      "baseline_new_p95p5": 0.2657341909113623,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1605",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1605",
+      "role": "ordinary",
+      "raw_range": 0.9331868477165699,
+      "baseline_new_range": 0.356637709154332,
+      "baseline_new_p95p5": 0.14959569578157889,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-07/YD1705",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "marker": "YD1705",
+      "role": "ordinary",
+      "raw_range": 0.9350179135799408,
+      "baseline_new_range": 0.436159274208542,
+      "baseline_new_p95p5": 0.18485098820816503,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-08/YD1302",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-08",
+      "marker": "YD1302",
+      "role": "ordinary",
+      "raw_range": 0.8706868588924408,
+      "baseline_new_range": 0.4485259586850263,
+      "baseline_new_p95p5": 0.21907582792103136,
+      "valid": 476,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-08/YD1601",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-08",
+      "marker": "YD1601",
+      "role": "ordinary",
+      "raw_range": 0.9751220643520355,
+      "baseline_new_range": 0.5811630740951723,
+      "baseline_new_p95p5": 0.2847178650504944,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-12/YD1302",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-12",
+      "marker": "YD1302",
+      "role": "ordinary",
+      "raw_range": 0.61767578125,
+      "baseline_new_range": 0.2904583538066404,
+      "baseline_new_p95p5": 0.17623072531567996,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-12/YD1402",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-12",
+      "marker": "YD1402",
+      "role": "ordinary",
+      "raw_range": 0.8643717765808105,
+      "baseline_new_range": 0.3754990171934613,
+      "baseline_new_p95p5": 0.2389097306681497,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-12/YD1405",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-12",
+      "marker": "YD1405",
+      "role": "ordinary",
+      "raw_range": 0.8367024958133698,
+      "baseline_new_range": 0.5958555716651386,
+      "baseline_new_p95p5": 0.2889069449973511,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-13/YD1402",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-13",
+      "marker": "YD1402",
+      "role": "ordinary",
+      "raw_range": 0.943652331829071,
+      "baseline_new_range": 0.42096889787271013,
+      "baseline_new_p95p5": 0.232302213134373,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-14/YD1302",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-14",
+      "marker": "YD1302",
+      "role": "ordinary",
+      "raw_range": 0.8805013000965118,
+      "baseline_new_range": 0.3559436008023403,
+      "baseline_new_p95p5": 0.24751964836454282,
+      "valid": 450,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "right/780639333715/2026-11-15/YD1302",
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-15",
+      "marker": "YD1302",
+      "role": "ordinary",
+      "raw_range": 0.820068359375,
+      "baseline_new_range": 0.33781200989028215,
+      "baseline_new_p95p5": 0.19381062784388153,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "right/780639346578/2026-11-06/YD2301",
+      "line": "right",
+      "device": "780639346578",
+      "night": "2026-11-06",
+      "marker": "YD2301",
+      "role": "ordinary",
+      "raw_range": 0.9530619531869888,
+      "baseline_new_range": 0.5823177313598081,
+      "baseline_new_p95p5": 0.4235459415346221,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639346578/2026-11-06/YD2405",
+      "line": "right",
+      "device": "780639346578",
+      "night": "2026-11-06",
+      "marker": "YD2405",
+      "role": "ordinary",
+      "raw_range": 0.9924316704273224,
+      "baseline_new_range": 0.5816477180029018,
+      "baseline_new_p95p5": 0.36745567438027393,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639346578/2026-11-06/YD2505",
+      "line": "right",
+      "device": "780639346578",
+      "night": "2026-11-06",
+      "marker": "YD2505",
+      "role": "ordinary",
+      "raw_range": 0.9772949516773224,
+      "baseline_new_range": 0.46062767892013756,
+      "baseline_new_p95p5": 0.30091335295191746,
+      "valid": 471,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639346578/2026-11-06/YD2601",
+      "line": "right",
+      "device": "780639346578",
+      "night": "2026-11-06",
+      "marker": "YD2601",
+      "role": "ordinary",
+      "raw_range": 0.9427490234375,
+      "baseline_new_range": 0.4100075800217566,
+      "baseline_new_p95p5": 0.2922326490930524,
+      "valid": 472,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639346578/2026-11-06/YD2605",
+      "line": "right",
+      "device": "780639346578",
+      "night": "2026-11-06",
+      "marker": "YD2605",
+      "role": "ordinary",
+      "raw_range": 0.986328125,
+      "baseline_new_range": 0.4268689845919032,
+      "baseline_new_p95p5": 0.3053790133370619,
+      "valid": 469,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639346578/2026-11-06/YD2805",
+      "line": "right",
+      "device": "780639346578",
+      "night": "2026-11-06",
+      "marker": "YD2805",
+      "role": "ordinary",
+      "raw_range": 0.9899739846587181,
+      "baseline_new_range": 0.47366690149606006,
+      "baseline_new_p95p5": 0.24637874810859461,
+      "valid": 462,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-06/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-06",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.9550272673368454,
+      "baseline_new_range": 0.12423661179879772,
+      "baseline_new_p95p5": 0.05015004255578622,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-07/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-07",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.8593609929084778,
+      "baseline_new_range": 0.1007804802480187,
+      "baseline_new_p95p5": 0.05308710068094233,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-08/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-08",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.7654785215854645,
+      "baseline_new_range": 0.1096285865904519,
+      "baseline_new_p95p5": 0.05679631001729617,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-08/YD4601",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-08",
+      "marker": "YD4601",
+      "role": "ordinary",
+      "raw_range": 0.8059081733226776,
+      "baseline_new_range": 0.15464101120482487,
+      "baseline_new_p95p5": 0.07617769180913166,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-08/YD4701",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-08",
+      "marker": "YD4701",
+      "role": "ordinary",
+      "raw_range": 0.9003092646598816,
+      "baseline_new_range": 0.1944828605632299,
+      "baseline_new_p95p5": 0.06947725169634905,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-09/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-09",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.6677703857421875,
+      "baseline_new_range": 0.635825198983045,
+      "baseline_new_p95p5": 0.3550304450225893,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-09/YD4601",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-09",
+      "marker": "YD4601",
+      "role": "ordinary",
+      "raw_range": 0.7613932490348816,
+      "baseline_new_range": 0.6128112569690336,
+      "baseline_new_p95p5": 0.30315744650785836,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-10/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-10",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.809725433588028,
+      "baseline_new_range": 0.16833657855007034,
+      "baseline_new_p95p5": 0.10516206519168902,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-11/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-11",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.7996101379394531,
+      "baseline_new_range": 0.28335287099813583,
+      "baseline_new_p95p5": 0.09317039721496118,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-12/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-12",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.6780688166618347,
+      "baseline_new_range": 0.15758501326218094,
+      "baseline_new_p95p5": 0.048079547842617115,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-12/YD4601",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-12",
+      "marker": "YD4601",
+      "role": "ordinary",
+      "raw_range": 0.9591471552848816,
+      "baseline_new_range": 0.15480180347383077,
+      "baseline_new_p95p5": 0.059369658002663736,
+      "valid": 478,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-13/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-13",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.7560869753360748,
+      "baseline_new_range": 0.17885460855020624,
+      "baseline_new_p95p5": 0.04348693620022759,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-14/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-14",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.7000287622213364,
+      "baseline_new_range": 0.129922462911576,
+      "baseline_new_p95p5": 0.05637296288887467,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-14/YD4601",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-14",
+      "marker": "YD4601",
+      "role": "ordinary",
+      "raw_range": 0.9807739406824112,
+      "baseline_new_range": 0.1607952222705344,
+      "baseline_new_p95p5": 0.06342574291572542,
+      "valid": 479,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-15/YD4501",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-15",
+      "marker": "YD4501",
+      "role": "ordinary",
+      "raw_range": 0.6714823544025421,
+      "baseline_new_range": 0.1925839996120644,
+      "baseline_new_p95p5": 0.044765139026907264,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "case_id": "right/780639414923/2026-11-15/YD4601",
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-15",
+      "marker": "YD4601",
+      "role": "ordinary",
+      "raw_range": 0.9161783680319786,
+      "baseline_new_range": 0.16672153235612908,
+      "baseline_new_p95p5": 0.0600038972914745,
+      "valid": 480,
+      "classification": "quiet_point_mixed_device",
+      "prior_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    }
+  ],
+  "all124_with_XJ_descriptive": 124,
+  "supplemental_frozen_cases": [
+    {
+      "selection": "largest_prior22_02_to_current_ratio",
+      "case_id": "left/780638310097/2026-11-14/ZD3704"
+    },
+    {
+      "selection": "largest_prior22_02_to_current_ratio",
+      "case_id": "left/780638310097/2026-11-14/ZD4204"
+    },
+    {
+      "selection": "largest_prior22_02_to_current_ratio",
+      "case_id": "left/780638349768/2026-11-14/ZD4404"
+    },
+    {
+      "selection": "largest_prior22_02_to_current_ratio",
+      "case_id": "left/780638310097/2026-11-14/ZD3904"
+    },
+    {
+      "selection": "largest_prior23_07_to_current_ratio",
+      "case_id": "right/780639333715/2026-11-12/YD1302"
+    },
+    {
+      "selection": "largest_prior23_07_to_current_ratio",
+      "case_id": "right/780639333715/2026-11-12/YD1405"
+    },
+    {
+      "selection": "largest_prior23_07_to_current_ratio",
+      "case_id": "left/780638310097/2026-11-14/ZD2202"
+    },
+    {
+      "selection": "smallest_existing_range_improvement",
+      "case_id": "right/780639414923/2026-11-09/YD4501"
+    },
+    {
+      "selection": "smallest_existing_range_improvement",
+      "case_id": "right/780639414923/2026-11-09/YD4601"
+    },
+    {
+      "selection": "smallest_existing_range_improvement",
+      "case_id": "right/780639333715/2026-11-06/YD1402"
+    },
+    {
+      "selection": "largest_baseline_offset_in_quiet",
+      "case_id": "left/780638327479/2026-11-07/ZD3705"
+    },
+    {
+      "selection": "largest_baseline_offset_in_quiet",
+      "case_id": "left/780638327479/2026-11-07/ZD3805"
+    },
+    {
+      "selection": "largest_baseline_offset_in_quiet",
+      "case_id": "right/780639346578/2026-11-06/YD2301"
+    },
+    {
+      "selection": "lowest_valid_coverage_in_quiet",
+      "case_id": "right/780639333715/2026-11-14/YD1302"
+    },
+    {
+      "selection": "lowest_valid_coverage_in_quiet",
+      "case_id": "left/780638327479/2026-11-15/ZD3503"
+    },
+    {
+      "selection": "ordinary_J_material_p95_regression",
+      "case_id": "right/780639298317/2026-11-06/YD1102"
+    },
+    {
+      "selection": "nonquiet_observed_local_step_no_physical_truth",
+      "case_id": "left/780638327479/2026-11-09/ZD4104"
+    },
+    {
+      "selection": "nonquiet_observed_local_step_no_physical_truth",
+      "case_id": "left/780638327479/2026-11-09/ZD3204"
+    },
+    {
+      "selection": "nonquiet_observed_local_step_no_physical_truth",
+      "case_id": "left/780638310097/2026-11-09/ZD2602"
+    },
+    {
+      "selection": "nonquiet_baseline_shift_no_physical_truth",
+      "case_id": "right/780639376393/2026-11-11/YD4605"
+    },
+    {
+      "selection": "nonquiet_baseline_shift_no_physical_truth",
+      "case_id": "right/780639376393/2026-11-11/YD4305"
+    }
+  ],
+  "closest_real_device_nights": [
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-14",
+      "total_primary_points": 17,
+      "eligible_primary_points": 17,
+      "quiet_primary_points": 8,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.2498779296875,
+      "median_primary_raw_range": 1.0048422813415527,
+      "prior_qualified_nights": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "raw_common": {
+        "valid": 476,
+        "range": 0.9198697805404663,
+        "p95p5": 0.7526715397834778,
+        "median": -0.25425028800964355
+      }
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-07",
+      "total_primary_points": 17,
+      "eligible_primary_points": 17,
+      "quiet_primary_points": 6,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.3076984882354736,
+      "median_primary_raw_range": 1.07476806640625,
+      "prior_qualified_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "raw_common": {
+        "valid": 480,
+        "range": 0.9762778282165527,
+        "p95p5": 0.6579260230064392,
+        "median": -0.16446936130523682
+      }
+    },
+    {
+      "line": "right",
+      "device": "780639333715",
+      "night": "2026-11-07",
+      "total_primary_points": 38,
+      "eligible_primary_points": 38,
+      "quiet_primary_points": 9,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.6472574472427368,
+      "median_primary_raw_range": 1.302250200882554,
+      "prior_qualified_nights": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ],
+      "raw_common": {
+        "valid": 479,
+        "range": 0.7691304795444012,
+        "p95p5": 0.4096511886455118,
+        "median": 0.1093953475356102
+      }
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-11",
+      "total_primary_points": 17,
+      "eligible_primary_points": 17,
+      "quiet_primary_points": 0,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.6532878875732422,
+      "median_primary_raw_range": 1.324308156967163,
+      "prior_qualified_nights": [
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10"
+      ],
+      "raw_common": {
+        "valid": 478,
+        "range": 1.1815348863601685,
+        "p95p5": 0.9873266935348511,
+        "median": -0.40453284978866577
+      }
+    },
+    {
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-08",
+      "total_primary_points": 12,
+      "eligible_primary_points": 12,
+      "quiet_primary_points": 3,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.712158203125,
+      "median_primary_raw_range": 1.4150797724723816,
+      "prior_qualified_nights": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "raw_common": {
+        "valid": 478,
+        "range": 1.270247396081686,
+        "p95p5": 0.7723579945042726,
+        "median": 0.3203344363719225
+      }
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-15",
+      "total_primary_points": 17,
+      "eligible_primary_points": 17,
+      "quiet_primary_points": 6,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.7430014610290527,
+      "median_primary_raw_range": 1.0232748985290527,
+      "prior_qualified_nights": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ],
+      "raw_common": {
+        "valid": 479,
+        "range": 0.9348428249359131,
+        "p95p5": 0.680849540233612,
+        "median": -0.17018651962280273
+      }
+    },
+    {
+      "line": "right",
+      "device": "780639414923",
+      "night": "2026-11-06",
+      "total_primary_points": 12,
+      "eligible_primary_points": 12,
+      "quiet_primary_points": 1,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.759521484375,
+      "median_primary_raw_range": 1.4876953065395355,
+      "prior_qualified_nights": [
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "raw_common": {
+        "valid": 478,
+        "range": 1.4265055283904076,
+        "p95p5": 0.8076991878449911,
+        "median": 0.37748616375029087
+      }
+    },
+    {
+      "line": "left",
+      "device": "780638349768",
+      "night": "2026-11-12",
+      "total_primary_points": 17,
+      "eligible_primary_points": 17,
+      "quiet_primary_points": 0,
+      "whole_device_quiet_complete": false,
+      "all_observed_primary_quiet": false,
+      "incomplete_coverage": false,
+      "max_primary_raw_range": 1.828336477279663,
+      "median_primary_raw_range": 1.259096622467041,
+      "prior_qualified_nights": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "raw_common": {
+        "valid": 479,
+        "range": 1.1316733360290527,
+        "p95p5": 0.9091192841529845,
+        "median": -0.1823117733001709
+      }
+    }
+  ],
+  "additional_context": "Retain every5240 point-night including missing/low-coverage separately when running candidate. Fixed quiet set is not a replacement for full10-night evaluation.",
+  "candidate_report_requirements": [
+    "exact same input/output timestamps and finite masks",
+    "all121 raw-quiet cases: range/P95, any amplification and crossing1",
+    "all device-night groups and original class limits",
+    "all existing nonquiet regression cases and J/XJ separately",
+    "no relabeling after observing candidate output"
+  ]
+}

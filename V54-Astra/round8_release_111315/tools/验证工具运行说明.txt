@@ -1,0 +1,38 @@
+交付端验证工具（不属于仅两个文件的算法源码包）
+
+本工具在本轮交付环境中只编译、没有运行；下面命令供允许执行该程序的现场验证环境使用。
+编译成功不表示任何外部状态已经通过此程序的运行验证。
+
+工具文件：tools/verify_release.cpp
+编译输入：本轮source/ModalSelfCal.cpp、source/ModalSelfCal.h；C++17，无第三方库。
+在round8_release_111315目录打开PowerShell，示例编译：
+
+& 'C:\msys64\ucrt64\bin\g++.exe' -std=c++17 -O2 -Wall -Wextra -Wno-unused-parameter -Isource tools/verify_release.cpp source/ModalSelfCal.cpp -o build/verify_release.exe
+
+运行三个位置参数：状态文件、完整device_id、marker.txt路径。第四参数可选。
+marker.txt为UTF-8（可带BOM），一行一个测点名，无表头、无空行；名单和顺序必须与该状态包完全一致，不按markerIndex重新排序。
+请从同一交付包的名单文件取值，不能借用另一设备名单。以下路径需要替换为清单给出的实际文件：
+
+& '.\build\verify_release.exe' '实际状态文件.state' '780639298317' '实际marker.txt'
+if ($LASTEXITCODE -ne 0) { throw '状态验证失败；查看FAIL和标准错误输出' }
+
+可选合成窗口边界检查：
+
+& '.\build\verify_release.exe' '实际状态文件.state' '780639298317' '实际marker.txt' --synthetic-boundaries
+if ($LASTEXITCODE -ne 0) { throw '状态或合成边界验证失败' }
+
+基础检查：
+1. 默认配置Init，导入外部state，导出与原state逐字节一致，resume时间一致。
+2. 等于resume及早于resume的帧不发布、无输出坐标、x_source=NoOutput，状态字节保持不变。
+3. 错误device、错误测点名单顺序、错误max_frame_dev配置均被明确拒绝。
+这些拒绝测试会在标准错误中出现预期Import=FAILED；应以程序最终退出码及PASS/FAIL判定，不要仅按日志含FAILED认为整次失败。
+左右12设备应逐份运行；任何一份非零退出码都不能记为全部通过。本工具不覆盖写回或改写任何state/database文件。
+
+可选合成检查：独立新建SYNTHETIC_BOUNDARY_ONLY流，检查精确23:00、07:00前后来源、窗口外raw逐值相同、NaN保持和history_replay不发布。
+它不接续真实状态，不验证历史模态修正效果，不提供真实性能或延迟结论；不会保存其合成状态。
+
+真实接续边界：现有冻结输入截至2026-11-16约07:59，未提供该日22—23的真实帧。本工具明确输出SKIP，不制造这些帧，也不把合成测试当作真实接续通过。
+后续获得真实22—23输入，应另按同一device、名单、采集时间和ROI掩码接续导入后的State::Process，并与不重启的同版本完整时间流比较；结果应保留真实数据来源。
+
+需要保存：编译器/命令、两份release源码哈希、所测state/名单哈希、每台完整stdout/stderr及退出码。
+本程序没有绕过或修改系统执行策略的功能。

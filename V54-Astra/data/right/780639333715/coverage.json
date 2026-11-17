@@ -1,0 +1,282 @@
+{
+  "line": "right",
+  "device": "780639333715",
+  "names": [
+    "YD1302",
+    "YD1402",
+    "YD1404",
+    "YD1405",
+    "YD1501",
+    "YD1502",
+    "YD1505",
+    "YD1601",
+    "YD1602",
+    "YD1605",
+    "YD1701",
+    "YD1702",
+    "YD1705",
+    "YD1801",
+    "YD1805",
+    "YD1901",
+    "YD1902",
+    "YD1905",
+    "YD2001",
+    "YD2005",
+    "YD2101",
+    "YD2102",
+    "YD2105",
+    "YD2201",
+    "YD2205",
+    "YD2301",
+    "YD2302",
+    "YD2305",
+    "YD2401",
+    "YD2405",
+    "YD2501",
+    "YD2505",
+    "YD2601",
+    "YD2605",
+    "YD2701",
+    "YD2705",
+    "YD2801",
+    "YD2901"
+  ],
+  "markers": 38,
+  "frames": 19251,
+  "rows": 731538,
+  "first": "2026-11-02 22:00:16.510000+08:00",
+  "last": "2026-11-16 07:59:50.107000+08:00",
+  "requested_start": "2026-11-02 22:00:00+08:00",
+  "requested_end_exclusive": "2026-11-16 08:00:00+08:00",
+  "sources": [
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_10.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_10.db",
+      "rows": 89224,
+      "source_sha256": "9E4CF1E844721AE13D63E2200491996A374D9B84FDBE3807FDFA6854CB5A2E7F",
+      "read_sha256": "9E4CF1E844721AE13D63E2200491996A374D9B84FDBE3807FDFA6854CB5A2E7F"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_11.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_11.db",
+      "rows": 89186,
+      "source_sha256": "E74C3ADAA521CBC4B3645A543884BD9F3C3E702B569E1529661E5411F8F366E3",
+      "read_sha256": "E74C3ADAA521CBC4B3645A543884BD9F3C3E702B569E1529661E5411F8F366E3"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_12.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_12.db",
+      "rows": 89186,
+      "source_sha256": "E2CC097184BADC50867E2C374C2FA9F00B79AAAA6FBDC5ACA25217757E3BF25A",
+      "read_sha256": "E2CC097184BADC50867E2C374C2FA9F00B79AAAA6FBDC5ACA25217757E3BF25A"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_13.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_13.db",
+      "rows": 27930,
+      "source_sha256": "4D6D5199EDF3A565C0218B714C68B98DFE46C50B15D7C9F20D60C265D5540DF1",
+      "read_sha256": "4D6D5199EDF3A565C0218B714C68B98DFE46C50B15D7C9F20D60C265D5540DF1"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_5.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_5.db",
+      "rows": 81586,
+      "source_sha256": "6AA40D9212D87F06992FD934C534C3C9563746501BE378ED603AEC1DBBF3455D",
+      "read_sha256": "6AA40D9212D87F06992FD934C534C3C9563746501BE378ED603AEC1DBBF3455D"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_6.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_6.db",
+      "rows": 89490,
+      "source_sha256": "05B7B5BCD35D3F256E4050774F1EF66C07EC066FECB8C50165C0F1BA12021EAE",
+      "read_sha256": "05B7B5BCD35D3F256E4050774F1EF66C07EC066FECB8C50165C0F1BA12021EAE"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_7 - 副本.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_7 - 副本.db",
+      "rows": 86564,
+      "source_sha256": "44F7FE1FF8BEF07864C0FEB917B3BE25FA7F366732A38ACFF458C06C5AF93C81",
+      "read_sha256": "44F7FE1FF8BEF07864C0FEB917B3BE25FA7F366732A38ACFF458C06C5AF93C81"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_8.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_8.db",
+      "rows": 89186,
+      "source_sha256": "9B444BF894AE6BA90C6A82505225E4F26FCCE7AEF025CE9D00E5997388C417C4",
+      "read_sha256": "9B444BF894AE6BA90C6A82505225E4F26FCCE7AEF025CE9D00E5997388C417C4"
+    },
+    {
+      "source": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_9.db",
+      "read_path": "E:\\Wiz\\GZMetro-Cpp\\data-sql\\右线\\1793052366195_DataBaseFile_9.db",
+      "rows": 89186,
+      "source_sha256": "1D4D7309E2B2BCF551B8F0FFAA24CDCBD4460942C145B21ED15126F8FA16AE54",
+      "read_sha256": "1D4D7309E2B2BCF551B8F0FFAA24CDCBD4460942C145B21ED15126F8FA16AE54"
+    }
+  ],
+  "duplicates_removed": 0,
+  "duplicate_conflicts": 0,
+  "missing_marker_cells": 0,
+  "invalid_roi_cells": 5468,
+  "valid_roi_nonfinite_x": 0,
+  "valid_roi_nonfinite_y": 0,
+  "max_gap_s": 4200.067,
+  "gaps_over_90s": [
+    {
+      "before": "2026-11-05 11:30:19.757000+08:00",
+      "after": "2026-11-05 11:33:35.831000+08:00",
+      "seconds": 196.074
+    },
+    {
+      "before": "2026-11-07 15:00:00.826000+08:00",
+      "after": "2026-11-07 16:10:00.893000+08:00",
+      "seconds": 4200.067
+    }
+  ],
+  "nights": [
+    {
+      "night": "2026-11-02",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-02 22:00:16.510000+08:00",
+      "last": "2026-11-03 07:59:17.031000+08:00",
+      "max_gap_s": 60.008,
+      "valid_x_cells": 22577,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-03",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-03 22:00:17.771000+08:00",
+      "last": "2026-11-04 07:59:18.290000+08:00",
+      "max_gap_s": 60.002,
+      "valid_x_cells": 22671,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-04",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-04 22:00:19.058000+08:00",
+      "last": "2026-11-05 07:59:19.579000+08:00",
+      "max_gap_s": 60.011,
+      "valid_x_cells": 22718,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-05",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-05 22:00:41.905000+08:00",
+      "last": "2026-11-06 07:59:42.435000+08:00",
+      "max_gap_s": 60.01,
+      "valid_x_cells": 22737,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-06",
+      "frames": 599,
+      "nominal_frames": 600,
+      "first": "2026-11-06 22:00:59.916000+08:00",
+      "last": "2026-11-07 07:59:00.427000+08:00",
+      "max_gap_s": 60.227,
+      "valid_x_cells": 22435,
+      "total_cells": 22762
+    },
+    {
+      "night": "2026-11-07",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-07 22:00:01.201000+08:00",
+      "last": "2026-11-08 07:59:01.723000+08:00",
+      "max_gap_s": 60.011,
+      "valid_x_cells": 22759,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-08",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-08 22:00:02.459000+08:00",
+      "last": "2026-11-09 07:59:02.987000+08:00",
+      "max_gap_s": 60.014,
+      "valid_x_cells": 22595,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-09",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-09 22:00:03.720000+08:00",
+      "last": "2026-11-10 07:59:04.245000+08:00",
+      "max_gap_s": 60.01,
+      "valid_x_cells": 22697,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-10",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-10 22:00:04.977000+08:00",
+      "last": "2026-11-11 07:59:05.498000+08:00",
+      "max_gap_s": 60.012,
+      "valid_x_cells": 22698,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-11",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-11 22:00:44.531000+08:00",
+      "last": "2026-11-12 07:59:45.042000+08:00",
+      "max_gap_s": 60.011,
+      "valid_x_cells": 22650,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-12",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-12 22:00:45.778000+08:00",
+      "last": "2026-11-13 07:59:46.302000+08:00",
+      "max_gap_s": 60.01,
+      "valid_x_cells": 22702,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-13",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-13 22:00:47.080000+08:00",
+      "last": "2026-11-14 07:59:47.602000+08:00",
+      "max_gap_s": 60.004,
+      "valid_x_cells": 22721,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-14",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-14 22:00:48.332000+08:00",
+      "last": "2026-11-15 07:59:48.850000+08:00",
+      "max_gap_s": 60.006,
+      "valid_x_cells": 22637,
+      "total_cells": 22800
+    },
+    {
+      "night": "2026-11-15",
+      "frames": 600,
+      "nominal_frames": 600,
+      "first": "2026-11-15 22:00:49.589000+08:00",
+      "last": "2026-11-16 07:59:50.107000+08:00",
+      "max_gap_s": 60.007,
+      "valid_x_cells": 22769,
+      "total_cells": 22800
+    }
+  ],
+  "input_sha256": "EA7F2C2D65EFB14D3566E722A98FC96634E40E8C628CDC0594D33FCCCEF10E61",
+  "mask": "Each axis: RoiCalState == 1 AND finite raw axis; missing/invalid is NaN; no interpolation.",
+  "input_format": "u32 m; [u32 UTF8 bytes, name] * m; u32 n; [i64 timestamp, f64[m] x, f64[m] y] * n; little endian",
+  "input_units": "pixel",
+  "scale_conversion": "none; user confirmed x/y already pixel"
+}

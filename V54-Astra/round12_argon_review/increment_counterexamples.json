@@ -1,0 +1,114 @@
+{
+  "scope": "Exact scalar algebra / explicitly constructed physical-truth thought experiments. No field replay, native execution, production or state changes.",
+  "partial_acceptance_then_recovery": {
+    "u": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "alpha": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "actual_compensation": [
+      0.0,
+      0.5,
+      -0.5
+    ],
+    "raw_for_pure_disturbance": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "output": [
+      0.0,
+      0.5,
+      0.5
+    ],
+    "last_frame_proposed_recovery_condition": true,
+    "known_true_motion": [
+      0,
+      0,
+      0
+    ]
+  },
+  "constant_demand_after_reopening": {
+    "u": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "alpha": [
+      0,
+      0.5,
+      1,
+      1
+    ],
+    "actual_compensation": [
+      0.0,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "reference_sign_check_does_not_bound_step": {
+    "j_raw_change": 1.0,
+    "previous_actual_compensation": 0.9,
+    "u_prev": 0.9,
+    "u_now": 2.0,
+    "remaining_residual": 0.09999999999999998,
+    "theoretical_increment": 1.1,
+    "same_sign_test_passes": true,
+    "accepted_compensation": 2.0,
+    "resulting_j_residual": -1.0
+  },
+  "J_underfit_cannot_validate_target_loading": {
+    "j_raw_change": 1,
+    "j_prediction": 0.8,
+    "j_remaining_after_correction": 0.2,
+    "target_raw_change": 1,
+    "target_prediction": 2,
+    "target_after_correction": -1,
+    "assumption": "One physical device disturbance with stale target/J loading ratio; fixed J still under-corrected while target already over-corrected."
+  },
+  "no_J_subspace_consistency_not_motion_identity": {
+    "design_column": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "observed_z": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "fitted_coefficient": 1,
+    "orthogonal_residual_ratio": 0,
+    "alpha_from_one_minus_ratio": 1,
+    "output": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "known_true_group_motion": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "assumption": "No fixed reference; true coherent group motion lies in learned subspace. Identical observations could also arise from device motion."
+  }
+}

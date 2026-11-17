@@ -1,0 +1,59 @@
+{
+  "candidate": "reference_activity_shadow_v1",
+  "test_scope": "纯Python合成真值及输出契约；未执行native核心",
+  "all_assertions_passed": true,
+  "check_count": 9,
+  "checks": [
+    {
+      "name": "all_quiet",
+      "pass": true,
+      "claim": "静止J令gain=0，能抑制冻结候选中人为注入的输出波动；不代表原核心会凭空生成该波动"
+    },
+    {
+      "name": "ordinary_true_step_with_quiet_j",
+      "pass": true,
+      "claim": "J静止时即使既有候选删除普通点+1阶跃，shadow仍保留当前raw阶跃"
+    },
+    {
+      "name": "motion_artifact_cancellation",
+      "pass": true,
+      "claim": "目标真实+1与设备-1相消使raw为0变化，J动仍同帧开门，允许正确候选恢复+1；未保证既有核心能求出此候选"
+    },
+    {
+      "name": "current_frame_event_no_detector_delay",
+      "pass": true,
+      "claim": "当前J首次变化的同帧gain由0到1；不代表原W3/S1或整体输出无相位差"
+    },
+    {
+      "name": "missing_j_fallback",
+      "pass": true,
+      "claim": "少于3个当前有效J或无J维持原候选并明示REFERENCE_UNAVAILABLE；不声称安全"
+    },
+    {
+      "name": "gain_transition_counterexample",
+      "pass": true,
+      "claim": "明确复现风险：目标raw恒100、原候选恒99，J活动变化使shadow100→99.5→99。smoothstep不保证不制造波形",
+      "raw_target_range": 0.0,
+      "base_target_range": 0.0,
+      "shadow_target_range": 1.0,
+      "max_shadow_adjacent_change": 0.5
+    },
+    {
+      "name": "causality_boundary_invalid_masks",
+      "pass": true,
+      "claim": "前缀与全量重放逐数组相同；精确07发布raw；raw/base非有限不提升为有效坐标"
+    },
+    {
+      "name": "insufficient_reference_baseline",
+      "pass": true,
+      "claim": "每轴仅9个基准样本时不生成基准，夜间保留原候选且明确不可用"
+    },
+    {
+      "name": "reference_last_60_device_frames",
+      "pass": true,
+      "claim": "高于每分钟一帧时仅保留22–23最后60设备帧；缺失样本不会倒取更早帧补满"
+    }
+  ],
+  "adoption_recommendation": "仅作shadow对照。gain_transition反例未解决，不应凭范围改善直接上线。",
+  "physical_boundary": "J活动不能判定既有补偿形状正确；J活动期间仍可能删除真实扰动或保留错误补偿。"
+}

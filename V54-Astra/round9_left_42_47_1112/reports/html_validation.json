@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "main_figures": 4,
+  "appendix_original_svg": 37,
+  "inline_svg_total": 41,
+  "unique_ids": true,
+  "links_valid": true,
+  "self_contained_html": true,
+  "html_sha256": "0dda63b9d5c99aa2589f948077beb79f94eeb6e464624fc74a0abe1bcbd7365e",
+  "main_svg_visual_check": "offline PNG render reviewed; no browser automation"
+}

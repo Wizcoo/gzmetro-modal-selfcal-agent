@@ -1,0 +1,4646 @@
+{
+  "scope": "One device327479, held-out11/12 night. Python modal-only historical-window sensitivity, not a new native algorithm replay or deployment candidate.",
+  "comparison": "Historical11/09,10,11 statistics22–02 versus22–07; W3/raw input and each reference22–23 unchanged; target model frozen23:00, no target-night future used for model or gain.",
+  "input_sha256": "b1895a9d700d6c60c39cf31dd4016f16cd2ce6745d0edc901bda41dfeee430e6",
+  "source_stage_sha256": "eb8fdf8dfd0b264f0f0e2c87860627d10dd6328976f20de7dc905a50225158e4",
+  "original_modal_matches_frozen_core_max_abs": 6.697353782669779e-11,
+  "old_recomputed_gains_match_native_logs": true,
+  "gain_method": "Recompute source use/learn/spread/guard/regression rows. For each ordinary nonlearn row recompute pairwise support and q in each enlarged historical window, gain=clamp(2*min_q,0,1); invalid or unsupported evidence closes to0. J fit-only and learn rows retain source exemption.",
+  "old_model": {
+    "history": [
+      {
+        "night": "2026-11-09",
+        "start": "2026-11-09 22:00:00.000+08:00",
+        "end_exclusive": "2026-11-10 02:00:00.000+08:00",
+        "frames": 240
+      },
+      {
+        "night": "2026-11-10",
+        "start": "2026-11-10 22:00:00.000+08:00",
+        "end_exclusive": "2026-11-11 02:00:00.000+08:00",
+        "frames": 240
+      },
+      {
+        "night": "2026-11-11",
+        "start": "2026-11-11 22:00:00.000+08:00",
+        "end_exclusive": "2026-11-12 02:00:00.000+08:00",
+        "frames": 240
+      }
+    ],
+    "latest_history_data_before_target_freeze": true,
+    "pooled_frames": 720,
+    "learn_names": [
+      "ZD3204",
+      "ZD3401",
+      "ZD3501",
+      "ZD3502",
+      "ZD3503",
+      "ZD3505",
+      "ZD3601",
+      "ZD3602",
+      "ZD3603",
+      "ZD3605",
+      "ZD3701",
+      "ZD3702",
+      "ZD3703",
+      "ZD3705",
+      "ZD3801",
+      "ZD3802",
+      "ZD3803",
+      "ZD3805",
+      "ZD3901",
+      "ZD3902",
+      "ZD3903",
+      "ZD3905",
+      "ZD4001",
+      "ZD4002",
+      "ZD4003",
+      "ZD4005",
+      "ZD4101",
+      "ZD4102",
+      "ZD4103",
+      "ZD4105",
+      "ZD4201",
+      "ZD4202",
+      "ZD4203",
+      "ZD4205",
+      "ZD4301",
+      "ZD4302",
+      "ZD4303",
+      "ZD4305",
+      "ZD4401",
+      "ZD4402",
+      "ZD4403",
+      "ZD4405",
+      "ZD4501",
+      "ZD4502",
+      "ZD4503",
+      "ZD4602",
+      "ZD4603",
+      "ZD4703"
+    ],
+    "spread_rms_cutoff": 1.625942129005892,
+    "gain_detail_recomputed_from_history": {
+      "ZD4104": {
+        "gain": 1.0,
+        "minimum_q": 0.8292637728244664,
+        "support": 3,
+        "covered": 3,
+        "invalid": 0,
+        "uninformative": 0,
+        "by_night": [
+          {
+            "date": "2026-11-09",
+            "coverage": 1.0,
+            "observed": 5.9786880906284665,
+            "cross": 5.883055074370612,
+            "predicted": 5.860469680072329,
+            "q": 1.003853853962436,
+            "supported": true
+          },
+          {
+            "date": "2026-11-10",
+            "coverage": 0.975,
+            "observed": 0.05938793616286954,
+            "cross": 0.06734269942173023,
+            "predicted": 0.08120781544858939,
+            "q": 0.8292637728244664,
+            "supported": true
+          },
+          {
+            "date": "2026-11-11",
+            "coverage": 0.9708333333333333,
+            "observed": 4.010217874712223,
+            "cross": 3.9702686896280848,
+            "predicted": 3.9747083252900683,
+            "q": 0.9988830285649553,
+            "supported": true
+          }
+        ]
+      },
+      "ZXJ6": {
+        "gain": 1.0,
+        "minimum_q": 0.7605955179085644,
+        "support": 3,
+        "covered": 3,
+        "invalid": 0,
+        "uninformative": 0,
+        "by_night": [
+          {
+            "date": "2026-11-09",
+            "coverage": 1.0,
+            "observed": 18.261642943735094,
+            "cross": 17.541418421831864,
+            "predicted": 17.462579089195348,
+            "q": 1.00451475880131,
+            "supported": true
+          },
+          {
+            "date": "2026-11-10",
+            "coverage": 0.975,
+            "observed": 0.1047772507378598,
+            "cross": 0.12328378082902376,
+            "predicted": 0.16208849240660977,
+            "q": 0.7605955179085644,
+            "supported": true
+          },
+          {
+            "date": "2026-11-11",
+            "coverage": 0.9708333333333333,
+            "observed": 12.189972268802482,
+            "cross": 12.04600073162992,
+            "predicted": 12.072157385585522,
+            "q": 0.9978333074097565,
+            "supported": true
+          }
+        ]
+      }
+    }
+  },
+  "enlarged_model": {
+    "history": [
+      {
+        "night": "2026-11-09",
+        "start": "2026-11-09 22:00:00.000+08:00",
+        "end_exclusive": "2026-11-10 07:00:00.000+08:00",
+        "frames": 540
+      },
+      {
+        "night": "2026-11-10",
+        "start": "2026-11-10 22:00:00.000+08:00",
+        "end_exclusive": "2026-11-11 07:00:00.000+08:00",
+        "frames": 540
+      },
+      {
+        "night": "2026-11-11",
+        "start": "2026-11-11 22:00:00.000+08:00",
+        "end_exclusive": "2026-11-12 07:00:00.000+08:00",
+        "frames": 540
+      }
+    ],
+    "latest_history_data_before_target_freeze": true,
+    "pooled_frames": 1620,
+    "learn_names": [
+      "ZD3204",
+      "ZD3401",
+      "ZD3501",
+      "ZD3502",
+      "ZD3503",
+      "ZD3505",
+      "ZD3601",
+      "ZD3602",
+      "ZD3603",
+      "ZD3605",
+      "ZD3701",
+      "ZD3702",
+      "ZD3703",
+      "ZD3705",
+      "ZD3801",
+      "ZD3802",
+      "ZD3803",
+      "ZD3805",
+      "ZD3901",
+      "ZD3902",
+      "ZD3903",
+      "ZD3905",
+      "ZD4001",
+      "ZD4002",
+      "ZD4003",
+      "ZD4005",
+      "ZD4101",
+      "ZD4102",
+      "ZD4103",
+      "ZD4105",
+      "ZD4201",
+      "ZD4202",
+      "ZD4203",
+      "ZD4205",
+      "ZD4301",
+      "ZD4302",
+      "ZD4303",
+      "ZD4305",
+      "ZD4401",
+      "ZD4402",
+      "ZD4403",
+      "ZD4405",
+      "ZD4501",
+      "ZD4502",
+      "ZD4503",
+      "ZD4602",
+      "ZD4603",
+      "ZD4703"
+    ],
+    "spread_rms_cutoff": 2.260921234871841,
+    "gain_detail_recomputed_from_history": {
+      "ZD4104": {
+        "gain": 1.0,
+        "minimum_q": 0.9444922903881457,
+        "support": 3,
+        "covered": 3,
+        "invalid": 0,
+        "uninformative": 0,
+        "by_night": [
+          {
+            "date": "2026-11-09",
+            "coverage": 0.9962962962962963,
+            "observed": 20.285843241667678,
+            "cross": 19.927635025072703,
+            "predicted": 19.706290265595154,
+            "q": 1.011232188123403,
+            "supported": true
+          },
+          {
+            "date": "2026-11-10",
+            "coverage": 0.9851851851851852,
+            "observed": 1.5587801320378483,
+            "cross": 1.482743131415992,
+            "predicted": 1.4634439814317703,
+            "q": 1.0131874880276184,
+            "supported": true
+          },
+          {
+            "date": "2026-11-11",
+            "coverage": 0.9851851851851852,
+            "observed": 3.9810031683096354,
+            "cross": 4.057856548407353,
+            "predicted": 4.29633633826672,
+            "q": 0.9444922903881457,
+            "supported": true
+          }
+        ]
+      },
+      "ZXJ6": {
+        "gain": 1.0,
+        "minimum_q": 0.9351076660543123,
+        "support": 3,
+        "covered": 3,
+        "invalid": 0,
+        "uninformative": 0,
+        "by_night": [
+          {
+            "date": "2026-11-09",
+            "coverage": 0.9592592592592593,
+            "observed": 56.04310162881319,
+            "cross": 48.29055650207549,
+            "predicted": 46.541908405498035,
+            "q": 1.0375714738927828,
+            "supported": true
+          },
+          {
+            "date": "2026-11-10",
+            "coverage": 0.9851851851851852,
+            "observed": 5.492863806042833,
+            "cross": 5.1258582060446685,
+            "predicted": 5.078286761784502,
+            "q": 1.009367616775436,
+            "supported": true
+          },
+          {
+            "date": "2026-11-11",
+            "coverage": 0.9851851851851852,
+            "observed": 11.433051970520753,
+            "cross": 11.41601911608199,
+            "predicted": 12.208240324081498,
+            "q": 0.9351076660543123,
+            "supported": true
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "points": 54,
+    "range_improved_gt_1e_6": 22,
+    "range_worse_gt_1e_6": 32,
+    "range_worse_gt_0p1": 22,
+    "abs_late_offset_improved_gt_1e_6": 21,
+    "abs_late_offset_worse_gt_0p1": 25,
+    "old_range_le_1": 40,
+    "new_range_le_1": 36,
+    "ordinary": {
+      "points": 49,
+      "range_improved_gt_1e_6": 22,
+      "range_worse_gt_1e_6": 27,
+      "range_worse_gt_0p1": 17,
+      "abs_late_offset_improved_gt_1e_6": 21,
+      "abs_late_offset_worse_gt_0p1": 20,
+      "old_range_le_1": 38,
+      "new_range_le_1": 36
+    },
+    "J": {
+      "points": 4,
+      "range_improved_gt_1e_6": 0,
+      "range_worse_gt_1e_6": 4,
+      "range_worse_gt_0p1": 4,
+      "abs_late_offset_improved_gt_1e_6": 0,
+      "abs_late_offset_worse_gt_0p1": 4,
+      "old_range_le_1": 2,
+      "new_range_le_1": 0
+    }
+  },
+  "worst_range_changes": [
+    {
+      "marker": "ZD4104",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.6400824380768517,
+          "p95p5": 2.1232704388736385,
+          "min": -0.49511912448044804,
+          "max": 2.1449633135964037,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 1.2275469689223488,
+          "p95p5": 0.8344866735497656,
+          "min": -0.49511912448044804,
+          "max": 0.7324278444419008,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:10:27.199+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.7046424559455047,
+        "late_mean_minus_raw_baseline_mean": -1.6733867785479601
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 6.049343800822512,
+          "p95p5": 5.128174903090872,
+          "min": -3.920230953255942,
+          "max": 2.12911284756657,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 1.981005254398763,
+          "p95p5": 1.331300239484992,
+          "min": -3.920230953255942,
+          "max": -1.9392256988571788,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 03:00:27.108+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -4.7282493378181005,
+        "late_mean_minus_raw_baseline_mean": -4.694442801072844
+      },
+      "delta_night_range_new_minus_old": 3.40926136274566,
+      "delta_abs_late_offset_new_minus_old": 3.023606881872596,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": false,
+        "spread_drop": true,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": false,
+        "spread_drop": true,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4005",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.2669500877714999,
+          "p95p5": 0.8878331884088779,
+          "min": 1.0595818195418385,
+          "max": 2.3265319073133384,
+          "min_time": "2026-11-13 00:57:27.024+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6769681087950552,
+          "p95p5": 0.43284955603893716,
+          "min": 1.6495637985182832,
+          "max": 2.3265319073133384,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.6513508780259243,
+        "late_mean_minus_raw_baseline_mean": 0.7331980541606633
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.7250008301565876,
+          "p95p5": 2.18245467820281,
+          "min": 1.113274257231869,
+          "max": 3.8382750873884564,
+          "min_time": "2026-11-12 23:39:26.972+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.9561678358182513,
+          "p95p5": 0.6294096768351514,
+          "min": 2.882107251570205,
+          "max": 3.8382750873884564,
+          "min_time": "2026-11-13 03:00:27.108+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 2.0541858566040934,
+        "late_mean_minus_raw_baseline_mean": 2.111138010726525
+      },
+      "delta_night_range_new_minus_old": 1.4580507423850877,
+      "delta_abs_late_offset_new_minus_old": 1.402834978578169,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3204",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.0189776408009963,
+          "p95p5": 0.6129966554205227,
+          "min": 0.7479119486903367,
+          "max": 1.766889589491333,
+          "min_time": "2026-11-13 00:53:27.020+08:00",
+          "max_time": "2026-11-13 05:09:27.199+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6199188595512242,
+          "p95p5": 0.3318596532600535,
+          "min": 1.1469707299401088,
+          "max": 1.766889589491333,
+          "min_time": "2026-11-13 04:19:27.160+08:00",
+          "max_time": "2026-11-13 05:09:27.199+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.3681639679367934,
+        "late_mean_minus_raw_baseline_mean": 0.41534773756579413
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.343856018942941,
+          "p95p5": 1.7369342521110072,
+          "min": -1.1131977194025495,
+          "max": 1.2306582995403916,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:39:26.972+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 1.0269203398577504,
+          "p95p5": 0.6583548771185502,
+          "min": -1.1131977194025495,
+          "max": -0.08627737954479908,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 03:03:27.111+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.5267229628792554,
+        "late_mean_minus_raw_baseline_mean": -1.4856558195401115
+      },
+      "delta_night_range_new_minus_old": 1.3248783781419449,
+      "delta_abs_late_offset_new_minus_old": 1.158558994942462,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4105",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.1908427880990025,
+          "p95p5": 0.8269212651225233,
+          "min": 1.1069069039416948,
+          "max": 2.2977496920406972,
+          "min_time": "2026-11-13 01:10:27.035+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7025414033838357,
+          "p95p5": 0.4242625137883018,
+          "min": 1.5952082886568615,
+          "max": 2.2977496920406972,
+          "min_time": "2026-11-13 05:24:27.211+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.5835483031961695,
+        "late_mean_minus_raw_baseline_mean": 0.6681506242333342
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.296831125860095,
+          "p95p5": 1.9187535682773629,
+          "min": 1.2076913393586262,
+          "max": 3.504522465218721,
+          "min_time": "2026-11-12 23:04:26.944+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.8196136960486413,
+          "p95p5": 0.6432581719178225,
+          "min": 2.6849087691700797,
+          "max": 3.504522465218721,
+          "min_time": "2026-11-13 03:03:27.111+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.769180419574182,
+        "late_mean_minus_raw_baseline_mean": 1.8352558771924412
+      },
+      "delta_night_range_new_minus_old": 1.1059883377610924,
+      "delta_abs_late_offset_new_minus_old": 1.1856321163780126,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4205",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.9814467302439489,
+          "p95p5": 0.43762018320154006,
+          "min": 0.7165268889914671,
+          "max": 1.697973619235416,
+          "min_time": "2026-11-13 01:12:27.036+08:00",
+          "max_time": "2026-11-13 05:18:27.206+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7502563049983646,
+          "p95p5": 0.30642360353737486,
+          "min": 0.9477173142370514,
+          "max": 1.697973619235416,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 05:18:27.206+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.19052191061038615,
+        "late_mean_minus_raw_baseline_mean": 0.2784601410920149
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.9602092843559766,
+          "p95p5": 1.4699243973470497,
+          "min": 0.9991451824437612,
+          "max": 2.959354466799738,
+          "min_time": "2026-11-12 23:39:26.972+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.8075437377246875,
+          "p95p5": 0.5044726096405885,
+          "min": 2.1518107290750503,
+          "max": 2.959354466799738,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.3463464463424821,
+        "late_mean_minus_raw_baseline_mean": 1.4124920369001428
+      },
+      "delta_night_range_new_minus_old": 0.9787625541120277,
+      "delta_abs_late_offset_new_minus_old": 1.155824535732096,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3701",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.7201690613390138,
+          "p95p5": 0.4881237941814578,
+          "min": 0.04675821913240075,
+          "max": 0.7669272804714146,
+          "min_time": "2026-11-13 05:15:27.204+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.39883308146394647,
+          "p95p5": 0.17841736326922158,
+          "min": 0.04675821913240075,
+          "max": 0.4455913005963472,
+          "min_time": "2026-11-13 05:15:27.204+08:00",
+          "max_time": "2026-11-13 05:31:27.218+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.3989224665287292,
+        "late_mean_minus_raw_baseline_mean": -0.3866036119773947
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.4127155410568726,
+          "p95p5": 1.1007196655948017,
+          "min": -0.710790053081853,
+          "max": 0.7019254879750196,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-12 23:00:26.940+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5503094303131091,
+          "p95p5": 0.3062846664124853,
+          "min": -0.710790053081853,
+          "max": -0.16048062276874386,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.0340950502866555,
+        "late_mean_minus_raw_baseline_mean": -1.0185559301247746
+      },
+      "delta_night_range_new_minus_old": 0.6925464797178588,
+      "delta_abs_late_offset_new_minus_old": 0.6351725837579263,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZJ8",
+      "role": "J",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.3593834876483792,
+          "p95p5": 0.976558384343978,
+          "min": 0.9727516653210766,
+          "max": 2.332135152969456,
+          "min_time": "2026-11-13 00:51:27.019+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6368931477602255,
+          "p95p5": 0.3553952291385274,
+          "min": 1.6952420052092303,
+          "max": 2.332135152969456,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.8235571069974479,
+        "late_mean_minus_raw_baseline_mean": 0.8644750367406255
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 2.0118911031702584,
+          "p95p5": 1.6009409365867049,
+          "min": 1.145188440551774,
+          "max": 3.1570795437220327,
+          "min_time": "2026-11-12 23:40:26.974+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7603498325373561,
+          "p95p5": 0.38092853697092144,
+          "min": 2.3967297111846766,
+          "max": 3.1570795437220327,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.575381108454378,
+        "late_mean_minus_raw_baseline_mean": 1.5852121128277379
+      },
+      "delta_night_range_new_minus_old": 0.6525076155218792,
+      "delta_abs_late_offset_new_minus_old": 0.7518240014569302,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3401",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.4651110667887617,
+          "p95p5": 1.0330267433256035,
+          "min": -0.3571643525661603,
+          "max": 1.1079467142226014,
+          "min_time": "2026-11-13 05:00:27.193+08:00",
+          "max_time": "2026-11-13 00:50:27.018+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5569777104337721,
+          "p95p5": 0.4063509329852347,
+          "min": -0.3571643525661603,
+          "max": 0.19981335786761178,
+          "min_time": "2026-11-13 05:00:27.193+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.8050304993140109,
+        "late_mean_minus_raw_baseline_mean": -0.8139394983101548
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 2.073375075514172,
+          "p95p5": 1.6479302502926898,
+          "min": -1.1343690913930038,
+          "max": 0.9390059841211686,
+          "min_time": "2026-11-13 04:45:27.180+08:00",
+          "max_time": "2026-11-13 00:50:27.018+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6631816182087418,
+          "p95p5": 0.4004003814024315,
+          "min": -1.1343690913930038,
+          "max": -0.471187473184262,
+          "min_time": "2026-11-13 04:45:27.180+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.5659997034196906,
+        "late_mean_minus_raw_baseline_mean": -1.5556572923172114
+      },
+      "delta_night_range_new_minus_old": 0.6082640087254105,
+      "delta_abs_late_offset_new_minus_old": 0.7609692041056797,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3805",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.9985042579489971,
+          "p95p5": 0.6176087968911832,
+          "min": 0.911616016154168,
+          "max": 1.910120274103165,
+          "min_time": "2026-11-13 01:04:27.029+08:00",
+          "max_time": "2026-11-13 05:04:27.195+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6667259664917249,
+          "p95p5": 0.2882433740161112,
+          "min": 1.2433943076114402,
+          "max": 1.910120274103165,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 05:04:27.195+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.4509297224967299,
+        "late_mean_minus_raw_baseline_mean": 0.4694393562704162
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.595585958675385,
+          "p95p5": 1.277643422807898,
+          "min": 1.1201113492136012,
+          "max": 2.7156973078889863,
+          "min_time": "2026-11-13 01:04:27.029+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6887994530075225,
+          "p95p5": 0.3753496371100473,
+          "min": 2.026897854881464,
+          "max": 2.7156973078889863,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.2195470486420916,
+        "late_mean_minus_raw_baseline_mean": 1.2263300372827037
+      },
+      "delta_night_range_new_minus_old": 0.597081700726388,
+      "delta_abs_late_offset_new_minus_old": 0.7686173261453617,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZJ7",
+      "role": "J",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.0594963553434393,
+          "p95p5": 0.5785825293509943,
+          "min": 0.7440955191826427,
+          "max": 1.8035918745260822,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 05:31:27.218+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.534220917885952,
+          "p95p5": 0.33926738973869,
+          "min": 1.26937095664013,
+          "max": 1.8035918745260822,
+          "min_time": "2026-11-13 04:34:27.171+08:00",
+          "max_time": "2026-11-13 05:31:27.218+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.3756441993347168,
+        "late_mean_minus_raw_baseline_mean": 0.44237194038344696
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.6174098795613265,
+          "p95p5": 1.3153007841388595,
+          "min": 1.017558535913919,
+          "max": 2.6349684154752455,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 04:44:27.179+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4826045971674944,
+          "p95p5": 0.3789257712885119,
+          "min": 2.152363818307751,
+          "max": 2.6349684154752455,
+          "min_time": "2026-11-13 05:45:27.230+08:00",
+          "max_time": "2026-11-13 04:44:27.179+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.2107273054989403,
+        "late_mean_minus_raw_baseline_mean": 1.2657391626186727
+      },
+      "delta_night_range_new_minus_old": 0.5579135242178872,
+      "delta_abs_late_offset_new_minus_old": 0.8350831061642234,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    }
+  ],
+  "points": [
+    {
+      "marker": "ZD3204",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.0189776408009963,
+          "p95p5": 0.6129966554205227,
+          "min": 0.7479119486903367,
+          "max": 1.766889589491333,
+          "min_time": "2026-11-13 00:53:27.020+08:00",
+          "max_time": "2026-11-13 05:09:27.199+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6199188595512242,
+          "p95p5": 0.3318596532600535,
+          "min": 1.1469707299401088,
+          "max": 1.766889589491333,
+          "min_time": "2026-11-13 04:19:27.160+08:00",
+          "max_time": "2026-11-13 05:09:27.199+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.3681639679367934,
+        "late_mean_minus_raw_baseline_mean": 0.41534773756579413
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.343856018942941,
+          "p95p5": 1.7369342521110072,
+          "min": -1.1131977194025495,
+          "max": 1.2306582995403916,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:39:26.972+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 1.0269203398577504,
+          "p95p5": 0.6583548771185502,
+          "min": -1.1131977194025495,
+          "max": -0.08627737954479908,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 03:03:27.111+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.5267229628792554,
+        "late_mean_minus_raw_baseline_mean": -1.4856558195401115
+      },
+      "delta_night_range_new_minus_old": 1.3248783781419449,
+      "delta_abs_late_offset_new_minus_old": 1.158558994942462,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3401",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.4651110667887617,
+          "p95p5": 1.0330267433256035,
+          "min": -0.3571643525661603,
+          "max": 1.1079467142226014,
+          "min_time": "2026-11-13 05:00:27.193+08:00",
+          "max_time": "2026-11-13 00:50:27.018+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5569777104337721,
+          "p95p5": 0.4063509329852347,
+          "min": -0.3571643525661603,
+          "max": 0.19981335786761178,
+          "min_time": "2026-11-13 05:00:27.193+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.8050304993140109,
+        "late_mean_minus_raw_baseline_mean": -0.8139394983101548
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 2.073375075514172,
+          "p95p5": 1.6479302502926898,
+          "min": -1.1343690913930038,
+          "max": 0.9390059841211686,
+          "min_time": "2026-11-13 04:45:27.180+08:00",
+          "max_time": "2026-11-13 00:50:27.018+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6631816182087418,
+          "p95p5": 0.4004003814024315,
+          "min": -1.1343690913930038,
+          "max": -0.471187473184262,
+          "min_time": "2026-11-13 04:45:27.180+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.5659997034196906,
+        "late_mean_minus_raw_baseline_mean": -1.5556572923172114
+      },
+      "delta_night_range_new_minus_old": 0.6082640087254105,
+      "delta_abs_late_offset_new_minus_old": 0.7609692041056797,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3501",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8863426288466678,
+          "p95p5": 0.5444081099747673,
+          "min": 0.06503115988731523,
+          "max": 0.951373788733983,
+          "min_time": "2026-11-13 05:00:27.193+08:00",
+          "max_time": "2026-11-13 00:46:27.015+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4411710125687667,
+          "p95p5": 0.2716952163148414,
+          "min": 0.06503115988731523,
+          "max": 0.5062021724560819,
+          "min_time": "2026-11-13 05:00:27.193+08:00",
+          "max_time": "2026-11-13 04:17:27.157+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.4302039412164125,
+        "late_mean_minus_raw_baseline_mean": -0.41702361122928766
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.2900398638940365,
+          "p95p5": 0.9540913315690328,
+          "min": -0.42235643077397267,
+          "max": 0.8676834331200638,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 00:46:27.015+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5452333590648983,
+          "p95p5": 0.2969862562236834,
+          "min": -0.42235643077397267,
+          "max": 0.12287692829092567,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.864995948808601,
+        "late_mean_minus_raw_baseline_mean": -0.8489405100257844
+      },
+      "delta_night_range_new_minus_old": 0.40369723504736865,
+      "delta_abs_late_offset_new_minus_old": 0.4347920075921885,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3502",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.42669890018816425,
+          "p95p5": 0.1984580125678458,
+          "min": 0.46733033697645143,
+          "max": 0.8940292371646157,
+          "min_time": "2026-11-13 00:52:27.019+08:00",
+          "max_time": "2026-11-13 04:55:27.187+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.35065621754334986,
+          "p95p5": 0.15737839081014082,
+          "min": 0.5433730196212658,
+          "max": 0.8940292371646157,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 04:55:27.187+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.09255421709721467,
+        "late_mean_minus_raw_baseline_mean": 0.12143325658713178
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.47760583885111807,
+          "p95p5": 0.28407785614211545,
+          "min": 0.25392737290488565,
+          "max": 0.7315332117560037,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 01:03:27.028+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3263802327924443,
+          "p95p5": 0.17500426319319629,
+          "min": 0.25392737290488565,
+          "max": 0.58030760569733,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 04:55:27.187+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.2323545537886873,
+        "late_mean_minus_raw_baseline_mean": -0.20658248170795762
+      },
+      "delta_night_range_new_minus_old": 0.050906938662953816,
+      "delta_abs_late_offset_new_minus_old": 0.13980033669147263,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3503",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.8361176278060084,
+          "p95p5": 0.5972544218640172,
+          "min": 0.5152957772729708,
+          "max": 1.3514134050789792,
+          "min_time": "2026-11-13 00:39:27.011+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.43517167172423354,
+          "p95p5": 0.20110787248683537,
+          "min": 0.9162417333547457,
+          "max": 1.3514134050789792,
+          "min_time": "2026-11-13 05:33:27.219+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.4991967212701096,
+        "late_mean_minus_raw_baseline_mean": 0.5314267325475169
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.43966360226777146,
+          "p95p5": 0.20379188159408973,
+          "min": 0.3317025845319721,
+          "max": 0.7713661867997436,
+          "min_time": "2026-11-13 05:33:27.219+08:00",
+          "max_time": "2026-11-13 01:08:27.032+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3503232977288171,
+          "p95p5": 0.23729171296985108,
+          "min": 0.3317025845319721,
+          "max": 0.6820258822607892,
+          "min_time": "2026-11-13 05:33:27.219+08:00",
+          "max_time": "2026-11-13 04:10:27.156+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.06512231512367483,
+        "late_mean_minus_raw_baseline_mean": -0.05038950748515569
+      },
+      "delta_night_range_new_minus_old": -0.39645402553823694,
+      "delta_abs_late_offset_new_minus_old": -0.4340744061464348,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3505",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.7285380958453407,
+          "p95p5": 0.4382758216344379,
+          "min": 0.17552814005868544,
+          "max": 0.9040662359040261,
+          "min_time": "2026-11-13 04:23:27.161+08:00",
+          "max_time": "2026-11-13 02:00:27.071+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5898334476289255,
+          "p95p5": 0.31589694898404147,
+          "min": 0.17552814005868544,
+          "max": 0.765361587687611,
+          "min_time": "2026-11-13 04:23:27.161+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.2448733000023906,
+        "late_mean_minus_raw_baseline_mean": -0.25406885006461366
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.5512631661243805,
+          "p95p5": 0.23804043090595284,
+          "min": 0.4319313576188275,
+          "max": 0.983194523743208,
+          "min_time": "2026-11-13 04:23:27.161+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5512631661243805,
+          "p95p5": 0.25755854323024596,
+          "min": 0.4319313576188275,
+          "max": 0.983194523743208,
+          "min_time": "2026-11-13 04:23:27.161+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.0017294547445452224,
+        "late_mean_minus_raw_baseline_mean": -0.007359996376017253
+      },
+      "delta_night_range_new_minus_old": -0.17727492972096015,
+      "delta_abs_late_offset_new_minus_old": -0.24314384525784538,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3601",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6336779609311212,
+          "p95p5": 0.36096046225876455,
+          "min": 0.2619469351620545,
+          "max": 0.8956248960931756,
+          "min_time": "2026-11-13 04:52:27.184+08:00",
+          "max_time": "2026-11-13 01:14:27.038+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3707150423231713,
+          "p95p5": 0.22190014538192532,
+          "min": 0.2619469351620545,
+          "max": 0.6326619774852258,
+          "min_time": "2026-11-13 04:52:27.184+08:00",
+          "max_time": "2026-11-13 05:22:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.2485729604395801,
+        "late_mean_minus_raw_baseline_mean": -0.24273665940842948
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.982660410780176,
+          "p95p5": 0.7607805534471542,
+          "min": -0.16270486225222847,
+          "max": 0.8199555485279475,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 01:14:27.038+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4195856771736768,
+          "p95p5": 0.21590395832336756,
+          "min": -0.16270486225222847,
+          "max": 0.2568808149214483,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 05:23:27.210+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.6814010650876443,
+        "late_mean_minus_raw_baseline_mean": -0.6689563042481144
+      },
+      "delta_night_range_new_minus_old": 0.3489824498490548,
+      "delta_abs_late_offset_new_minus_old": 0.4328281046480642,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3602",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.47782385597681265,
+          "p95p5": 0.31388984948487064,
+          "min": 0.4450719648091692,
+          "max": 0.9228958207859819,
+          "min_time": "2026-11-13 00:51:27.019+08:00",
+          "max_time": "2026-11-13 04:34:27.171+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.28630352135869686,
+          "p95p5": 0.17988503019790036,
+          "min": 0.636592299427285,
+          "max": 0.9228958207859819,
+          "min_time": "2026-11-13 05:03:27.195+08:00",
+          "max_time": "2026-11-13 04:34:27.171+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.19872266136606487,
+        "late_mean_minus_raw_baseline_mean": 0.22814288376565628
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.384019168049037,
+          "p95p5": 0.1819299892434899,
+          "min": 0.3284521962428961,
+          "max": 0.7124713642919331,
+          "min_time": "2026-11-13 04:29:27.166+08:00",
+          "max_time": "2026-11-13 01:15:27.039+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.28898857858056237,
+          "p95p5": 0.18222060377633026,
+          "min": 0.3284521962428961,
+          "max": 0.6174407748234585,
+          "min_time": "2026-11-13 04:29:27.166+08:00",
+          "max_time": "2026-11-13 05:35:27.221+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.09066768422034066,
+        "late_mean_minus_raw_baseline_mean": -0.06693056089191896
+      },
+      "delta_night_range_new_minus_old": -0.09380468792777563,
+      "delta_abs_late_offset_new_minus_old": -0.10805497714572421,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3603",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.7424486307419291,
+          "p95p5": 0.5526511975871605,
+          "min": 0.5861563778187395,
+          "max": 1.3286050085606687,
+          "min_time": "2026-11-13 00:36:27.008+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.44241667626104775,
+          "p95p5": 0.220444010566061,
+          "min": 0.8861883322996209,
+          "max": 1.3286050085606687,
+          "min_time": "2026-11-13 05:32:27.219+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.4112674200723858,
+        "late_mean_minus_raw_baseline_mean": 0.4495915771402622
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.7033856765245936,
+          "p95p5": 0.5172569365302773,
+          "min": 0.5892380301255531,
+          "max": 1.2926237066501467,
+          "min_time": "2026-11-13 00:36:27.008+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.41230375054583934,
+          "p95p5": 0.22640440505476467,
+          "min": 0.8803199561043074,
+          "max": 1.2926237066501467,
+          "min_time": "2026-11-13 05:32:27.219+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.3640817678276842,
+        "late_mean_minus_raw_baseline_mean": 0.411458891139762
+      },
+      "delta_night_range_new_minus_old": -0.03906295421733552,
+      "delta_abs_late_offset_new_minus_old": -0.047185652244701615,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3605",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.9858389624440212,
+          "p95p5": 0.6344753874058975,
+          "min": 0.6110021853459878,
+          "max": 1.596841147790009,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5106139452724281,
+          "p95p5": 0.2888494514034676,
+          "min": 1.086227202517581,
+          "max": 1.596841147790009,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.45731421489840685,
+        "late_mean_minus_raw_baseline_mean": 0.4830093860957484
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.3569419332579562,
+          "p95p5": 1.1457843396189928,
+          "min": 0.7985218896574304,
+          "max": 2.1554638229153866,
+          "min_time": "2026-11-13 00:49:27.016+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4472161461894526,
+          "p95p5": 0.33293774861581804,
+          "min": 1.708247676725934,
+          "max": 2.1554638229153866,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.0576971965974904,
+        "late_mean_minus_raw_baseline_mean": 1.0717051380635074
+      },
+      "delta_night_range_new_minus_old": 0.37110297081393495,
+      "delta_abs_late_offset_new_minus_old": 0.6003829816990836,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3701",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.7201690613390138,
+          "p95p5": 0.4881237941814578,
+          "min": 0.04675821913240075,
+          "max": 0.7669272804714146,
+          "min_time": "2026-11-13 05:15:27.204+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.39883308146394647,
+          "p95p5": 0.17841736326922158,
+          "min": 0.04675821913240075,
+          "max": 0.4455913005963472,
+          "min_time": "2026-11-13 05:15:27.204+08:00",
+          "max_time": "2026-11-13 05:31:27.218+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.3989224665287292,
+        "late_mean_minus_raw_baseline_mean": -0.3866036119773947
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.4127155410568726,
+          "p95p5": 1.1007196655948017,
+          "min": -0.710790053081853,
+          "max": 0.7019254879750196,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-12 23:00:26.940+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5503094303131091,
+          "p95p5": 0.3062846664124853,
+          "min": -0.710790053081853,
+          "max": -0.16048062276874386,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.0340950502866555,
+        "late_mean_minus_raw_baseline_mean": -1.0185559301247746
+      },
+      "delta_night_range_new_minus_old": 0.6925464797178588,
+      "delta_abs_late_offset_new_minus_old": 0.6351725837579263,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3702",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.679941780687409,
+          "p95p5": 0.41559115942547054,
+          "min": 0.6476516331906964,
+          "max": 1.3275934138781054,
+          "min_time": "2026-11-13 00:40:27.010+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.41332847837904474,
+          "p95p5": 0.2074577500903112,
+          "min": 0.9142649354990606,
+          "max": 1.3275934138781054,
+          "min_time": "2026-11-13 05:31:27.218+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.2694227477906579,
+        "late_mean_minus_raw_baseline_mean": 0.3105660239487442
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.5501744078071077,
+          "p95p5": 0.29866325496897517,
+          "min": 0.6347128151821743,
+          "max": 1.184887222989282,
+          "min_time": "2026-11-13 00:48:27.015+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.39196713988765763,
+          "p95p5": 0.22280414565277418,
+          "min": 0.7929200831016243,
+          "max": 1.184887222989282,
+          "min_time": "2026-11-13 05:31:27.218+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.12067381856232728,
+        "late_mean_minus_raw_baseline_mean": 0.16515237062423516
+      },
+      "delta_night_range_new_minus_old": -0.12976737288030127,
+      "delta_abs_late_offset_new_minus_old": -0.1487489292283306,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3703",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.6456561917487472,
+          "p95p5": 0.406539070496474,
+          "min": 0.5428902678834927,
+          "max": 1.18854645963224,
+          "min_time": "2026-11-13 01:17:27.040+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4021005726861344,
+          "p95p5": 0.20468472641016688,
+          "min": 0.7864458869461055,
+          "max": 1.18854645963224,
+          "min_time": "2026-11-13 05:32:27.219+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.2848835525113673,
+        "late_mean_minus_raw_baseline_mean": 0.314190290514602
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.6506378145452825,
+          "p95p5": 0.41775906740783186,
+          "min": 0.5439413338590438,
+          "max": 1.1945791484043262,
+          "min_time": "2026-11-13 01:17:27.040+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.37353776103004455,
+          "p95p5": 0.20070769117375065,
+          "min": 0.8210413873742817,
+          "max": 1.1945791484043262,
+          "min_time": "2026-11-13 05:32:27.219+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.2956913100264247,
+        "late_mean_minus_raw_baseline_mean": 0.3249157975681366
+      },
+      "delta_night_range_new_minus_old": 0.0049816227965352455,
+      "delta_abs_late_offset_new_minus_old": 0.010807757515057359,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3705",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.4077537217601792,
+          "p95p5": 0.945920033477182,
+          "min": 0.6770334753009104,
+          "max": 2.0847871970610896,
+          "min_time": "2026-11-13 00:49:27.016+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7142255513420874,
+          "p95p5": 0.37727876396249127,
+          "min": 1.3705616457190022,
+          "max": 2.0847871970610896,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.7577253650988565,
+        "late_mean_minus_raw_baseline_mean": 0.7886015561847028
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.929754160603169,
+          "p95p5": 1.5913021643732799,
+          "min": 0.8884199151248335,
+          "max": 2.8181740757280025,
+          "min_time": "2026-11-13 00:49:27.016+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6922610113309813,
+          "p95p5": 0.37243186785220805,
+          "min": 2.125913064397021,
+          "max": 2.8181740757280025,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.5315289839770303,
+        "late_mean_minus_raw_baseline_mean": 1.550192315370232
+      },
+      "delta_night_range_new_minus_old": 0.5220004388429897,
+      "delta_abs_late_offset_new_minus_old": 0.7738036188781738,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3801",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.5740123080000107,
+          "p95p5": 0.35834925009329993,
+          "min": 0.053672818648005105,
+          "max": 0.6276851266480158,
+          "min_time": "2026-11-13 04:37:27.173+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.38073334160056804,
+          "p95p5": 0.16661471929422014,
+          "min": 0.053672818648005105,
+          "max": 0.43440616024857315,
+          "min_time": "2026-11-13 04:37:27.173+08:00",
+          "max_time": "2026-11-13 05:26:27.213+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.2693566590653269,
+        "late_mean_minus_raw_baseline_mean": -0.25526853679062167
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.8326352256120674,
+          "p95p5": 0.5985716250743528,
+          "min": -0.20061250811583964,
+          "max": 0.6320227174962277,
+          "min_time": "2026-11-13 04:37:27.173+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.44729910404319995,
+          "p95p5": 0.19003720732836366,
+          "min": -0.20061250811583964,
+          "max": 0.2466865959273603,
+          "min_time": "2026-11-13 04:37:27.173+08:00",
+          "max_time": "2026-11-13 05:26:27.213+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.5170868277080576,
+        "late_mean_minus_raw_baseline_mean": -0.5030502671942457
+      },
+      "delta_night_range_new_minus_old": 0.2586229176120567,
+      "delta_abs_late_offset_new_minus_old": 0.24773016864273067,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3802",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.576888697148893,
+          "p95p5": 0.30714551094339304,
+          "min": 0.633808659653112,
+          "max": 1.210697356802005,
+          "min_time": "2026-11-13 00:50:27.018+08:00",
+          "max_time": "2026-11-13 05:08:27.199+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.37279844926101413,
+          "p95p5": 0.20180421332331322,
+          "min": 0.8378989075409908,
+          "max": 1.210697356802005,
+          "min_time": "2026-11-13 05:31:27.218+08:00",
+          "max_time": "2026-11-13 05:08:27.199+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.15934652536829885,
+        "late_mean_minus_raw_baseline_mean": 0.1950817179047527
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.3527879537574674,
+          "p95p5": 0.18773505351969033,
+          "min": 0.554597931263999,
+          "max": 0.9073858850214664,
+          "min_time": "2026-11-13 05:31:27.218+08:00",
+          "max_time": "2026-11-13 05:08:27.199+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3527879537574674,
+          "p95p5": 0.1877253449960311,
+          "min": 0.554597931263999,
+          "max": 0.9073858850214664,
+          "min_time": "2026-11-13 05:31:27.218+08:00",
+          "max_time": "2026-11-13 05:08:27.199+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.10990567536723717,
+        "late_mean_minus_raw_baseline_mean": -0.08680784447908163
+      },
+      "delta_night_range_new_minus_old": -0.2241007433914256,
+      "delta_abs_late_offset_new_minus_old": -0.04944085000106169,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3803",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.3727573544474071,
+          "p95p5": 0.16783234251085344,
+          "min": 0.48851633555451845,
+          "max": 0.8612736900019256,
+          "min_time": "2026-11-13 01:15:27.039+08:00",
+          "max_time": "2026-11-13 04:30:27.167+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3429484307494901,
+          "p95p5": 0.18616288128035097,
+          "min": 0.5183252592524354,
+          "max": 0.8612736900019256,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 04:30:27.167+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.017115226781826642,
+        "late_mean_minus_raw_baseline_mean": -0.0038797888030478456
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.4267876298112089,
+          "p95p5": 0.17966822152605566,
+          "min": 0.506791168025227,
+          "max": 0.9335787978364358,
+          "min_time": "2026-11-13 01:15:27.039+08:00",
+          "max_time": "2026-11-13 05:00:27.193+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3546851119735397,
+          "p95p5": 0.17990736908642968,
+          "min": 0.5788936858628961,
+          "max": 0.9335787978364358,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 05:00:27.193+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.02629580401402265,
+        "late_mean_minus_raw_baseline_mean": 0.04858631920115297
+      },
+      "delta_night_range_new_minus_old": 0.05403027536380178,
+      "delta_abs_late_offset_new_minus_old": 0.009180577232196008,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3805",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.9985042579489971,
+          "p95p5": 0.6176087968911832,
+          "min": 0.911616016154168,
+          "max": 1.910120274103165,
+          "min_time": "2026-11-13 01:04:27.029+08:00",
+          "max_time": "2026-11-13 05:04:27.195+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6667259664917249,
+          "p95p5": 0.2882433740161112,
+          "min": 1.2433943076114402,
+          "max": 1.910120274103165,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 05:04:27.195+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.4509297224967299,
+        "late_mean_minus_raw_baseline_mean": 0.4694393562704162
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.595585958675385,
+          "p95p5": 1.277643422807898,
+          "min": 1.1201113492136012,
+          "max": 2.7156973078889863,
+          "min_time": "2026-11-13 01:04:27.029+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6887994530075225,
+          "p95p5": 0.3753496371100473,
+          "min": 2.026897854881464,
+          "max": 2.7156973078889863,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.2195470486420916,
+        "late_mean_minus_raw_baseline_mean": 1.2263300372827037
+      },
+      "delta_night_range_new_minus_old": 0.597081700726388,
+      "delta_abs_late_offset_new_minus_old": 0.7686173261453617,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3901",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.6735720324186164,
+          "p95p5": 0.46636303882713503,
+          "min": 0.26038186094481475,
+          "max": 0.9339538933634312,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3067881462439681,
+          "p95p5": 0.22181405182887687,
+          "min": 0.26038186094481475,
+          "max": 0.5671700071887829,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:30:27.216+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.32246694638250695,
+        "late_mean_minus_raw_baseline_mean": -0.314769684929191
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.8118037070399025,
+          "p95p5": 0.5765617124324254,
+          "min": 0.12243190542867222,
+          "max": 0.9342356124685747,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3455578693117869,
+          "p95p5": 0.1968453812275413,
+          "min": 0.12243190542867222,
+          "max": 0.4679897747404591,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:30:27.216+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.48557940173438086,
+        "late_mean_minus_raw_baseline_mean": -0.46415512363089695
+      },
+      "delta_night_range_new_minus_old": 0.13823167462128605,
+      "delta_abs_late_offset_new_minus_old": 0.1631124553518739,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3902",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.7798111154354701,
+          "p95p5": 0.5000330120642342,
+          "min": 0.7742487230797832,
+          "max": 1.5540598385152533,
+          "min_time": "2026-11-13 00:50:27.018+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.41147446444200275,
+          "p95p5": 0.2936015326374901,
+          "min": 1.1425853740732506,
+          "max": 1.5540598385152533,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.34488200664696955,
+        "late_mean_minus_raw_baseline_mean": 0.3904554060019555
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.5050726513539108,
+          "p95p5": 0.2366323413108371,
+          "min": 0.8110757651025737,
+          "max": 1.3161484164564845,
+          "min_time": "2026-11-13 01:12:27.036+08:00",
+          "max_time": "2026-11-13 05:28:27.214+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.40672282554481054,
+          "p95p5": 0.25054568003752,
+          "min": 0.909425590911674,
+          "max": 1.3161484164564845,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 05:28:27.214+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.1516641212993992,
+        "late_mean_minus_raw_baseline_mean": 0.175461653337471
+      },
+      "delta_night_range_new_minus_old": -0.27473846408155933,
+      "delta_abs_late_offset_new_minus_old": -0.19321788534757034,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3903",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.5817222891571134,
+          "p95p5": 0.34213245093287914,
+          "min": 0.699665987803864,
+          "max": 1.2813882769609775,
+          "min_time": "2026-11-13 00:35:27.007+08:00",
+          "max_time": "2026-11-13 04:59:27.191+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.40465894392437995,
+          "p95p5": 0.2479455084971287,
+          "min": 0.8767293330365975,
+          "max": 1.2813882769609775,
+          "min_time": "2026-11-13 03:57:27.154+08:00",
+          "max_time": "2026-11-13 04:59:27.191+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.14446240956913803,
+        "late_mean_minus_raw_baseline_mean": 0.19186894417001998
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.5603003794280452,
+          "p95p5": 0.3228080682456572,
+          "min": 0.7139457020436604,
+          "max": 1.2742460814717056,
+          "min_time": "2026-11-13 01:15:27.039+08:00",
+          "max_time": "2026-11-13 04:59:27.191+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.40940614554624455,
+          "p95p5": 0.24044784734636349,
+          "min": 0.864839935925461,
+          "max": 1.2742460814717056,
+          "min_time": "2026-11-13 04:03:27.157+08:00",
+          "max_time": "2026-11-13 04:59:27.191+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.12322095763118424,
+        "late_mean_minus_raw_baseline_mean": 0.17380408134530323
+      },
+      "delta_night_range_new_minus_old": -0.02142190972906821,
+      "delta_abs_late_offset_new_minus_old": -0.021241451937953792,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD3905",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.5413268615093862,
+          "p95p5": 1.135783916362502,
+          "min": 0.9442246498094704,
+          "max": 2.4855515113188567,
+          "min_time": "2026-11-13 01:05:27.030+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7493742674646677,
+          "p95p5": 0.37803839989957266,
+          "min": 1.736177243854189,
+          "max": 2.4855515113188567,
+          "min_time": "2026-11-13 04:39:27.175+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.9355015954125503,
+        "late_mean_minus_raw_baseline_mean": 0.9690202920249642
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.8984753641598053,
+          "p95p5": 1.592915915790095,
+          "min": 1.1552063319246844,
+          "max": 3.0536816960844897,
+          "min_time": "2026-11-13 00:56:27.022+08:00",
+          "max_time": "2026-11-13 04:45:27.180+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6390216404426003,
+          "p95p5": 0.40350042570024947,
+          "min": 2.4146600556418893,
+          "max": 3.0536816960844897,
+          "min_time": "2026-11-13 04:39:27.175+08:00",
+          "max_time": "2026-11-13 04:45:27.180+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.5183920828315767,
+        "late_mean_minus_raw_baseline_mean": 1.5598111465739892
+      },
+      "delta_night_range_new_minus_old": 0.3571485026504191,
+      "delta_abs_late_offset_new_minus_old": 0.5828904874190264,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4001",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 478,
+          "range": 0.4427418735267925,
+          "p95p5": 0.20484939057887075,
+          "min": 0.4942158614645975,
+          "max": 0.93695773499139,
+          "min_time": "2026-11-13 01:52:27.067+08:00",
+          "max_time": "2026-11-13 05:15:27.204+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.419734874615016,
+          "p95p5": 0.23409705648697343,
+          "min": 0.517222860376374,
+          "max": 0.93695773499139,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 05:15:27.204+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.01784879625126079,
+        "late_mean_minus_raw_baseline_mean": 0.0007630403648720696
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 478,
+          "range": 0.5419165830723922,
+          "p95p5": 0.27724099120236956,
+          "min": 0.5575834935761934,
+          "max": 1.0995000766485856,
+          "min_time": "2026-11-13 01:52:27.067+08:00",
+          "max_time": "2026-11-13 05:15:27.204+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3706939952320245,
+          "p95p5": 0.19433703081486708,
+          "min": 0.7288060814165611,
+          "max": 1.0995000766485856,
+          "min_time": "2026-11-13 05:22:27.211+08:00",
+          "max_time": "2026-11-13 05:15:27.204+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.1747983643505655,
+        "late_mean_minus_raw_baseline_mean": 0.18823061792431273
+      },
+      "delta_night_range_new_minus_old": 0.0991747095455997,
+      "delta_abs_late_offset_new_minus_old": 0.15694956809930471,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4002",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6299438936876689,
+          "p95p5": 0.3593916953505989,
+          "min": 0.6934503869178623,
+          "max": 1.3233942806055312,
+          "min_time": "2026-11-13 00:52:27.019+08:00",
+          "max_time": "2026-11-13 04:52:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4246074582994712,
+          "p95p5": 0.26219520710579947,
+          "min": 0.89878682230606,
+          "max": 1.3233942806055312,
+          "min_time": "2026-11-13 04:16:27.157+08:00",
+          "max_time": "2026-11-13 04:52:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.1889558607564843,
+        "late_mean_minus_raw_baseline_mean": 0.23098499580573073
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6488396876483952,
+          "p95p5": 0.40452940038020613,
+          "min": 0.741734027209081,
+          "max": 1.3905737148574762,
+          "min_time": "2026-11-13 00:52:27.019+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3977457507669344,
+          "p95p5": 0.2369582698550894,
+          "min": 0.9928279640905417,
+          "max": 1.3905737148574762,
+          "min_time": "2026-11-13 04:39:27.175+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.2694763661144981,
+        "late_mean_minus_raw_baseline_mean": 0.31237151517536355
+      },
+      "delta_night_range_new_minus_old": 0.01889579396072627,
+      "delta_abs_late_offset_new_minus_old": 0.0805205053580138,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4003",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.7613779879778767,
+          "p95p5": 0.45734534770890456,
+          "min": 0.8635471919470118,
+          "max": 1.6249251799248885,
+          "min_time": "2026-11-13 00:46:27.015+08:00",
+          "max_time": "2026-11-13 05:32:27.219+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5076347827300931,
+          "p95p5": 0.2114382603977556,
+          "min": 1.1172903971947954,
+          "max": 1.6249251799248885,
+          "min_time": "2026-11-13 05:36:27.222+08:00",
+          "max_time": "2026-11-13 05:32:27.219+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.31397982840280925,
+        "late_mean_minus_raw_baseline_mean": 0.36490999804468127
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.8596130529086496,
+          "p95p5": 0.5456653534371143,
+          "min": 0.8858588274704349,
+          "max": 1.7454718803790845,
+          "min_time": "2026-11-13 00:46:27.015+08:00",
+          "max_time": "2026-11-13 05:32:27.219+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.507657928499829,
+          "p95p5": 0.2351431137203659,
+          "min": 1.2378139518792555,
+          "max": 1.7454718803790845,
+          "min_time": "2026-11-13 05:36:27.222+08:00",
+          "max_time": "2026-11-13 05:32:27.219+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.40384939114954777,
+        "late_mean_minus_raw_baseline_mean": 0.45341995876074637
+      },
+      "delta_night_range_new_minus_old": 0.09823506493077294,
+      "delta_abs_late_offset_new_minus_old": 0.08986956274673852,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4005",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.2669500877714999,
+          "p95p5": 0.8878331884088779,
+          "min": 1.0595818195418385,
+          "max": 2.3265319073133384,
+          "min_time": "2026-11-13 00:57:27.024+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6769681087950552,
+          "p95p5": 0.43284955603893716,
+          "min": 1.6495637985182832,
+          "max": 2.3265319073133384,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.6513508780259243,
+        "late_mean_minus_raw_baseline_mean": 0.7331980541606633
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.7250008301565876,
+          "p95p5": 2.18245467820281,
+          "min": 1.113274257231869,
+          "max": 3.8382750873884564,
+          "min_time": "2026-11-12 23:39:26.972+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.9561678358182513,
+          "p95p5": 0.6294096768351514,
+          "min": 2.882107251570205,
+          "max": 3.8382750873884564,
+          "min_time": "2026-11-13 03:00:27.108+08:00",
+          "max_time": "2026-11-13 04:50:27.183+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 2.0541858566040934,
+        "late_mean_minus_raw_baseline_mean": 2.111138010726525
+      },
+      "delta_night_range_new_minus_old": 1.4580507423850877,
+      "delta_abs_late_offset_new_minus_old": 1.402834978578169,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4101",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6578672332150783,
+          "p95p5": 0.2393266976382108,
+          "min": 0.28365375072376914,
+          "max": 0.9415209839388474,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.47291431217076685,
+          "p95p5": 0.2500525530694321,
+          "min": 0.4686066717680806,
+          "max": 0.9415209839388474,
+          "min_time": "2026-11-13 04:36:27.173+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.06709604194344765,
+        "late_mean_minus_raw_baseline_mean": 0.0937318785435326
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6288763542997236,
+          "p95p5": 0.23029779730761157,
+          "min": 0.3512230646725805,
+          "max": 0.980099418972304,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4444093960092217,
+          "p95p5": 0.23206886843261976,
+          "min": 0.5356900229630823,
+          "max": 0.980099418972304,
+          "min_time": "2026-11-13 04:36:27.173+08:00",
+          "max_time": "2026-11-13 04:27:27.165+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.12479802608967794,
+        "late_mean_minus_raw_baseline_mean": 0.14637058548924464
+      },
+      "delta_night_range_new_minus_old": -0.02899087891535479,
+      "delta_abs_late_offset_new_minus_old": 0.05770198414623029,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4102",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 478,
+          "range": 0.6981430644597266,
+          "p95p5": 0.4910174802406305,
+          "min": 0.673887849829996,
+          "max": 1.3720309142897227,
+          "min_time": "2026-11-13 00:39:27.011+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3542002005385161,
+          "p95p5": 0.20293387301162547,
+          "min": 1.0178307137512066,
+          "max": 1.3720309142897227,
+          "min_time": "2026-11-13 05:23:27.210+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.40284330773396215,
+        "late_mean_minus_raw_baseline_mean": 0.4388053687500729
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 478,
+          "range": 0.7051853430816433,
+          "p95p5": 0.5026487667767005,
+          "min": 0.6914665817500003,
+          "max": 1.3966519248316436,
+          "min_time": "2026-11-13 00:39:27.011+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3655834003665017,
+          "p95p5": 0.20320431578992948,
+          "min": 1.0310685244651419,
+          "max": 1.3966519248316436,
+          "min_time": "2026-11-13 05:23:27.210+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.4255636025834826,
+        "late_mean_minus_raw_baseline_mean": 0.4611073072234494
+      },
+      "delta_night_range_new_minus_old": 0.007042278621916642,
+      "delta_abs_late_offset_new_minus_old": 0.022720294849520428,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4103",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.585043924795799,
+          "p95p5": 0.24473569570660292,
+          "min": 0.47065741001290884,
+          "max": 1.0557013348087079,
+          "min_time": "2026-11-13 01:59:27.072+08:00",
+          "max_time": "2026-11-13 04:31:27.168+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.40908296971614133,
+          "p95p5": 0.18855676662780352,
+          "min": 0.6466183650925665,
+          "max": 1.0557013348087079,
+          "min_time": "2026-11-13 05:33:27.219+08:00",
+          "max_time": "2026-11-13 04:31:27.168+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.16200568155019868,
+        "late_mean_minus_raw_baseline_mean": 0.1762607330358562
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.500788508575198,
+          "p95p5": 0.2397760037542498,
+          "min": 0.5181688664713198,
+          "max": 1.0189573750465177,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 04:31:27.168+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.31233776932395774,
+          "p95p5": 0.162881499964055,
+          "min": 0.70661960572256,
+          "max": 1.0189573750465177,
+          "min_time": "2026-11-13 04:22:27.162+08:00",
+          "max_time": "2026-11-13 04:31:27.168+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.1366022367969757,
+        "late_mean_minus_raw_baseline_mean": 0.1610873903061132
+      },
+      "delta_night_range_new_minus_old": -0.08425541622060106,
+      "delta_abs_late_offset_new_minus_old": -0.02540344475322298,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4104",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.6400824380768517,
+          "p95p5": 2.1232704388736385,
+          "min": -0.49511912448044804,
+          "max": 2.1449633135964037,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 1.2275469689223488,
+          "p95p5": 0.8344866735497656,
+          "min": -0.49511912448044804,
+          "max": 0.7324278444419008,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:10:27.199+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -1.7046424559455047,
+        "late_mean_minus_raw_baseline_mean": -1.6733867785479601
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 6.049343800822512,
+          "p95p5": 5.128174903090872,
+          "min": -3.920230953255942,
+          "max": 2.12911284756657,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 1.981005254398763,
+          "p95p5": 1.331300239484992,
+          "min": -3.920230953255942,
+          "max": -1.9392256988571788,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 03:00:27.108+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -4.7282493378181005,
+        "late_mean_minus_raw_baseline_mean": -4.694442801072844
+      },
+      "delta_night_range_new_minus_old": 3.40926136274566,
+      "delta_abs_late_offset_new_minus_old": 3.023606881872596,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": false,
+        "spread_drop": true,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": false,
+        "spread_drop": true,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4105",
+      "role": "ordinary",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.1908427880990025,
+          "p95p5": 0.8269212651225233,
+          "min": 1.1069069039416948,
+          "max": 2.2977496920406972,
+          "min_time": "2026-11-13 01:10:27.035+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7025414033838357,
+          "p95p5": 0.4242625137883018,
+          "min": 1.5952082886568615,
+          "max": 2.2977496920406972,
+          "min_time": "2026-11-13 05:24:27.211+08:00",
+          "max_time": "2026-11-13 04:51:27.184+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.5835483031961695,
+        "late_mean_minus_raw_baseline_mean": 0.6681506242333342
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 2.296831125860095,
+          "p95p5": 1.9187535682773629,
+          "min": 1.2076913393586262,
+          "max": 3.504522465218721,
+          "min_time": "2026-11-12 23:04:26.944+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.8196136960486413,
+          "p95p5": 0.6432581719178225,
+          "min": 2.6849087691700797,
+          "max": 3.504522465218721,
+          "min_time": "2026-11-13 03:03:27.111+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.769180419574182,
+        "late_mean_minus_raw_baseline_mean": 1.8352558771924412
+      },
+      "delta_night_range_new_minus_old": 1.1059883377610924,
+      "delta_abs_late_offset_new_minus_old": 1.1856321163780126,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4201",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.7828170788960068,
+          "p95p5": 0.3801143926973083,
+          "min": 0.29733988580152804,
+          "max": 1.0801569646975349,
+          "min_time": "2026-11-13 00:45:27.013+08:00",
+          "max_time": "2026-11-13 05:17:27.206+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.42223332888337284,
+          "p95p5": 0.2679046830310642,
+          "min": 0.657923635814162,
+          "max": 1.0801569646975349,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 05:17:27.206+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.2507463777945165,
+        "late_mean_minus_raw_baseline_mean": 0.287238254001008
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8107282964194489,
+          "p95p5": 0.43204437884843805,
+          "min": 0.34538510525038935,
+          "max": 1.1561134016698382,
+          "min_time": "2026-11-13 00:45:27.013+08:00",
+          "max_time": "2026-11-13 04:46:27.180+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.40350822642777073,
+          "p95p5": 0.21038364069034532,
+          "min": 0.7526051752420675,
+          "max": 1.1561134016698382,
+          "min_time": "2026-11-13 05:06:27.198+08:00",
+          "max_time": "2026-11-13 04:46:27.180+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.34237099362457335,
+        "late_mean_minus_raw_baseline_mean": 0.3699130498032468
+      },
+      "delta_night_range_new_minus_old": 0.027911217523442056,
+      "delta_abs_late_offset_new_minus_old": 0.09162461583005688,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4202",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.5357137935082044,
+          "p95p5": 0.2307839632303671,
+          "min": 0.4721517051027657,
+          "max": 1.00786549861097,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4104793000740323,
+          "p95p5": 0.2249784269489229,
+          "min": 0.5973861985369378,
+          "max": 1.00786549861097,
+          "min_time": "2026-11-13 05:35:27.221+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.10901325312419186,
+        "late_mean_minus_raw_baseline_mean": 0.14941740950429028
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8491860824987261,
+          "p95p5": 0.5442205091358825,
+          "min": 0.5232497937972225,
+          "max": 1.3724358762959485,
+          "min_time": "2026-11-13 00:53:27.020+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.45903275405752053,
+          "p95p5": 0.23579270018414777,
+          "min": 0.913403122238428,
+          "max": 1.3724358762959485,
+          "min_time": "2026-11-13 05:35:27.221+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.44310107912616026,
+        "late_mean_minus_raw_baseline_mean": 0.4884633606233876
+      },
+      "delta_night_range_new_minus_old": 0.3134722889905217,
+      "delta_abs_late_offset_new_minus_old": 0.3340878260019684,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4203",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.5725757405445381,
+          "p95p5": 0.2465779401767373,
+          "min": 0.4149033039484529,
+          "max": 0.987479044492991,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 01:10:27.035+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.42152771961923374,
+          "p95p5": 0.27845080715458914,
+          "min": 0.5195925448620606,
+          "max": 0.9411202644812944,
+          "min_time": "2026-11-13 05:34:27.221+08:00",
+          "max_time": "2026-11-13 05:05:27.195+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.013221524094632287,
+        "late_mean_minus_raw_baseline_mean": 0.008632333177605922
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.5814446144683787,
+          "p95p5": 0.18471927774625851,
+          "min": 0.4549650557377669,
+          "max": 1.0364096702061456,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 05:05:27.195+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.3788939967259308,
+          "p95p5": 0.19659421867376392,
+          "min": 0.6575156734802148,
+          "max": 1.0364096702061456,
+          "min_time": "2026-11-13 04:28:27.167+08:00",
+          "max_time": "2026-11-13 05:05:27.195+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.076449636107077,
+        "late_mean_minus_raw_baseline_mean": 0.09661744956885443
+      },
+      "delta_night_range_new_minus_old": 0.008868873923840614,
+      "delta_abs_late_offset_new_minus_old": 0.06322811201244471,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4205",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.9814467302439489,
+          "p95p5": 0.43762018320154006,
+          "min": 0.7165268889914671,
+          "max": 1.697973619235416,
+          "min_time": "2026-11-13 01:12:27.036+08:00",
+          "max_time": "2026-11-13 05:18:27.206+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7502563049983646,
+          "p95p5": 0.30642360353737486,
+          "min": 0.9477173142370514,
+          "max": 1.697973619235416,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 05:18:27.206+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.19052191061038615,
+        "late_mean_minus_raw_baseline_mean": 0.2784601410920149
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 1.9602092843559766,
+          "p95p5": 1.4699243973470497,
+          "min": 0.9991451824437612,
+          "max": 2.959354466799738,
+          "min_time": "2026-11-12 23:39:26.972+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.8075437377246875,
+          "p95p5": 0.5044726096405885,
+          "min": 2.1518107290750503,
+          "max": 2.959354466799738,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 04:48:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.3463464463424821,
+        "late_mean_minus_raw_baseline_mean": 1.4124920369001428
+      },
+      "delta_night_range_new_minus_old": 0.9787625541120277,
+      "delta_abs_late_offset_new_minus_old": 1.155824535732096,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4301",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.9247691077020307,
+          "p95p5": 0.6442488709370093,
+          "min": 0.3014386765336622,
+          "max": 1.2262077842356929,
+          "min_time": "2026-11-13 00:43:27.012+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4222620283649041,
+          "p95p5": 0.3061293144212388,
+          "min": 0.8039457558707888,
+          "max": 1.2262077842356929,
+          "min_time": "2026-11-13 04:14:27.157+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.5171185814095396,
+        "late_mean_minus_raw_baseline_mean": 0.5639557037955734
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.7427240071346543,
+          "p95p5": 0.5130737575585986,
+          "min": 0.3435826550068949,
+          "max": 1.0863066621415491,
+          "min_time": "2026-11-13 00:43:27.012+08:00",
+          "max_time": "2026-11-13 04:46:27.180+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.389743007052481,
+          "p95p5": 0.2502288714562858,
+          "min": 0.6965636550890681,
+          "max": 1.0863066621415491,
+          "min_time": "2026-11-13 04:40:27.175+08:00",
+          "max_time": "2026-11-13 04:46:27.180+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.4359732557403895,
+        "late_mean_minus_raw_baseline_mean": 0.46605416469762734
+      },
+      "delta_night_range_new_minus_old": -0.18204510056737644,
+      "delta_abs_late_offset_new_minus_old": -0.08114532566915011,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4302",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.5629937234979773,
+          "p95p5": 0.24390332872139403,
+          "min": 0.26550762555097673,
+          "max": 0.828501349048954,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 01:45:27.062+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4908853481233555,
+          "p95p5": 0.255727237709808,
+          "min": 0.2875725025910407,
+          "max": 0.7784578507143962,
+          "min_time": "2026-11-13 04:24:27.163+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.11788759736909249,
+        "late_mean_minus_raw_baseline_mean": -0.1053568823681742
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.4976549827078811,
+          "p95p5": 0.18940269765532702,
+          "min": 0.46241808082559377,
+          "max": 0.9600730635334749,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4798261889635951,
+          "p95p5": 0.2480025115105975,
+          "min": 0.4802468745698798,
+          "max": 0.9600730635334749,
+          "min_time": "2026-11-13 04:24:27.163+08:00",
+          "max_time": "2026-11-13 04:37:27.173+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.04912807119417373,
+        "late_mean_minus_raw_baseline_mean": 0.07333675994123057
+      },
+      "delta_night_range_new_minus_old": -0.06533874079009616,
+      "delta_abs_late_offset_new_minus_old": -0.06875952617491876,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4303",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.8819762523007338,
+          "p95p5": 0.5860959485355599,
+          "min": -0.04675184785033348,
+          "max": 0.8352244044504004,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 00:46:27.015+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5814700263166586,
+          "p95p5": 0.3127795151315512,
+          "min": -0.01904873932979978,
+          "max": 0.5624212869868588,
+          "min_time": "2026-11-13 05:01:27.192+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.3526402996056386,
+        "late_mean_minus_raw_baseline_mean": -0.3653656570330927
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.6692790047488506,
+          "p95p5": 0.23940357996325523,
+          "min": 0.16321279540076095,
+          "max": 0.8324918001496115,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.43595577189052204,
+          "p95p5": 0.22581028693401917,
+          "min": 0.3965360282590895,
+          "max": 0.8324918001496115,
+          "min_time": "2026-11-13 04:29:27.166+08:00",
+          "max_time": "2026-11-13 05:06:27.198+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.09776592376929782,
+        "late_mean_minus_raw_baseline_mean": -0.07752325184514586
+      },
+      "delta_night_range_new_minus_old": -0.21269724755188324,
+      "delta_abs_late_offset_new_minus_old": -0.25487437583634076,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4305",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.792990931979912,
+          "p95p5": 0.41302538326664595,
+          "min": 0.9227962809043788,
+          "max": 1.7157872128842908,
+          "min_time": "2026-11-13 05:08:27.199+08:00",
+          "max_time": "2026-11-13 01:13:27.036+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5733390109894678,
+          "p95p5": 0.2414534533933046,
+          "min": 0.9227962809043788,
+          "max": 1.4961352918938466,
+          "min_time": "2026-11-13 05:08:27.199+08:00",
+          "max_time": "2026-11-13 04:19:27.160+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.22233798335416166,
+        "late_mean_minus_raw_baseline_mean": -0.14827160470706846
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.7138839779462196,
+          "p95p5": 0.3829190132802842,
+          "min": 1.0618435897446927,
+          "max": 1.7757275676909123,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-13 01:13:27.036+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5368045937086876,
+          "p95p5": 0.3072788985196879,
+          "min": 1.0898236347752128,
+          "max": 1.6266282284839004,
+          "min_time": "2026-11-13 05:08:27.199+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.13261902494289846,
+        "late_mean_minus_raw_baseline_mean": -0.03580660340379449
+      },
+      "delta_night_range_new_minus_old": -0.07910695403369239,
+      "delta_abs_late_offset_new_minus_old": -0.0897189584112632,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4401",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 477,
+          "range": 0.5996928788708074,
+          "p95p5": 0.3011266820672892,
+          "min": 0.24490794094974344,
+          "max": 0.8446008198205508,
+          "min_time": "2026-11-13 04:32:27.169+08:00",
+          "max_time": "2026-11-13 00:45:27.013+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4721595918288717,
+          "p95p5": 0.24797448110469889,
+          "min": 0.24490794094974344,
+          "max": 0.7170675327786151,
+          "min_time": "2026-11-13 04:32:27.169+08:00",
+          "max_time": "2026-11-13 05:37:27.222+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.19398696229199341,
+        "late_mean_minus_raw_baseline_mean": -0.1699274733035927
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 477,
+          "range": 0.7560324475821097,
+          "p95p5": 0.47274851801355694,
+          "min": 0.07946926422199674,
+          "max": 0.8355017118041065,
+          "min_time": "2026-11-13 04:32:27.169+08:00",
+          "max_time": "2026-11-13 00:45:27.013+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4502227541746402,
+          "p95p5": 0.3184485751894772,
+          "min": 0.07946926422199674,
+          "max": 0.5296920183966369,
+          "min_time": "2026-11-13 04:32:27.169+08:00",
+          "max_time": "2026-11-13 05:37:27.222+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.3238191885658326,
+        "late_mean_minus_raw_baseline_mean": -0.31271763906665023
+      },
+      "delta_night_range_new_minus_old": 0.1563395687113024,
+      "delta_abs_late_offset_new_minus_old": 0.12983222627383917,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4402",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8729029179403383,
+          "p95p5": 0.5232198080698456,
+          "min": 0.16166156298121415,
+          "max": 1.0345644809215524,
+          "min_time": "2026-11-13 05:33:27.219+08:00",
+          "max_time": "2026-11-13 01:02:27.028+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4784921698516511,
+          "p95p5": 0.26669871519625715,
+          "min": 0.16166156298121415,
+          "max": 0.6401537328328653,
+          "min_time": "2026-11-13 05:33:27.219+08:00",
+          "max_time": "2026-11-13 05:26:27.213+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.3908407107887526,
+        "late_mean_minus_raw_baseline_mean": -0.39367123350744604
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.5487568232691176,
+          "p95p5": 0.2628127566813345,
+          "min": 0.4629741725477192,
+          "max": 1.0117309958168368,
+          "min_time": "2026-11-13 04:21:27.160+08:00",
+          "max_time": "2026-11-13 01:02:27.028+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4376842918046444,
+          "p95p5": 0.22164147226788444,
+          "min": 0.4629741725477192,
+          "max": 0.9006584643523636,
+          "min_time": "2026-11-13 04:21:27.160+08:00",
+          "max_time": "2026-11-13 05:32:27.219+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.1164617574393163,
+        "late_mean_minus_raw_baseline_mean": -0.1192888119938541
+      },
+      "delta_night_range_new_minus_old": -0.3241460946712207,
+      "delta_abs_late_offset_new_minus_old": -0.2743789533494363,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4403",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.34593921241258,
+          "p95p5": 0.9686128166903589,
+          "min": -0.3942360377315435,
+          "max": 0.9517031746810364,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 00:45:27.013+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5709232982158978,
+          "p95p5": 0.36552559001552226,
+          "min": -0.3942360377315435,
+          "max": 0.17668726048435435,
+          "min_time": "2026-11-13 04:47:27.181+08:00",
+          "max_time": "2026-11-13 05:25:27.211+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.8019230003789644,
+        "late_mean_minus_raw_baseline_mean": -0.8044291562164253
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6380569930383679,
+          "p95p5": 0.3652349958020329,
+          "min": 0.29603825705004727,
+          "max": 0.9340952500884152,
+          "min_time": "2026-11-13 04:45:27.180+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.41883627499604614,
+          "p95p5": 0.2241280256215471,
+          "min": 0.29603825705004727,
+          "max": 0.7148745320460934,
+          "min_time": "2026-11-13 04:45:27.180+08:00",
+          "max_time": "2026-11-13 05:05:27.195+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.23745636479309917,
+        "late_mean_minus_raw_baseline_mean": -0.2328262689836873
+      },
+      "delta_night_range_new_minus_old": -0.707882219374212,
+      "delta_abs_late_offset_new_minus_old": -0.5644666355858652,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4405",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.8437849597435567,
+          "p95p5": 0.5783643654771127,
+          "min": 1.1035364216151864,
+          "max": 1.947321381358743,
+          "min_time": "2026-11-13 04:50:27.183+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.44472617107574397,
+          "p95p5": 0.2385300532218111,
+          "min": 1.1035364216151864,
+          "max": 1.5482625926909304,
+          "min_time": "2026-11-13 04:50:27.183+08:00",
+          "max_time": "2026-11-13 04:20:27.160+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.4319789079199641,
+        "late_mean_minus_raw_baseline_mean": -0.34045533053327404
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 0.7509133063559768,
+          "p95p5": 0.4896032095475187,
+          "min": 1.1961908332938318,
+          "max": 1.9471041396498086,
+          "min_time": "2026-11-13 06:29:27.254+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.38957081091647083,
+          "p95p5": 0.2798132082884639,
+          "min": 1.2514921350336357,
+          "max": 1.6410629459501065,
+          "min_time": "2026-11-13 04:06:27.156+08:00",
+          "max_time": "2026-11-13 04:42:27.177+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.34660988092730083,
+        "late_mean_minus_raw_baseline_mean": -0.25061106548494694
+      },
+      "delta_night_range_new_minus_old": -0.09287165338757997,
+      "delta_abs_late_offset_new_minus_old": -0.08536902699266324,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4501",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 478,
+          "range": 0.933035758618572,
+          "p95p5": 0.5776224293832152,
+          "min": 0.4787184515257732,
+          "max": 1.4117542101443452,
+          "min_time": "2026-11-13 00:50:27.018+08:00",
+          "max_time": "2026-11-13 05:37:27.222+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5350965006186383,
+          "p95p5": 0.30533015205157166,
+          "min": 0.8766577095257069,
+          "max": 1.4117542101443452,
+          "min_time": "2026-11-13 04:06:27.156+08:00",
+          "max_time": "2026-11-13 05:37:27.222+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.39314462355388535,
+        "late_mean_minus_raw_baseline_mean": 0.43777698782528685
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 478,
+          "range": 0.9891269951521093,
+          "p95p5": 0.7422497734004867,
+          "min": 0.5949575456144087,
+          "max": 1.584084540766518,
+          "min_time": "2026-11-13 00:50:27.018+08:00",
+          "max_time": "2026-11-13 04:41:27.177+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.41731278611990064,
+          "p95p5": 0.2435234110376363,
+          "min": 1.1667717546466174,
+          "max": 1.584084540766518,
+          "min_time": "2026-11-13 05:26:27.213+08:00",
+          "max_time": "2026-11-13 04:41:27.177+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.658289611982803,
+        "late_mean_minus_raw_baseline_mean": 0.6946677930452496
+      },
+      "delta_night_range_new_minus_old": 0.056091236533537314,
+      "delta_abs_late_offset_new_minus_old": 0.26514498842891765,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4502",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6652359280699922,
+          "p95p5": 0.4508763276391829,
+          "min": 0.31732918405197275,
+          "max": 0.982565112121965,
+          "min_time": "2026-11-13 04:24:27.163+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5297935058229939,
+          "p95p5": 0.2236658990643947,
+          "min": 0.31732918405197275,
+          "max": 0.8471226898749666,
+          "min_time": "2026-11-13 04:24:27.163+08:00",
+          "max_time": "2026-11-13 05:07:27.197+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.285060914196547,
+        "late_mean_minus_raw_baseline_mean": -0.2963941801329135
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.6512439985232223,
+          "p95p5": 0.41798740934065665,
+          "min": 0.33115978221777365,
+          "max": 0.982403780740996,
+          "min_time": "2026-11-13 04:24:27.163+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4875992739605888,
+          "p95p5": 0.23109509557027041,
+          "min": 0.33115978221777365,
+          "max": 0.8187590561783624,
+          "min_time": "2026-11-13 04:24:27.163+08:00",
+          "max_time": "2026-11-13 05:07:27.197+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.2551333785865939,
+        "late_mean_minus_raw_baseline_mean": -0.27266211761852077
+      },
+      "delta_night_range_new_minus_old": -0.013991929546769866,
+      "delta_abs_late_offset_new_minus_old": -0.029927535609953093,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4503",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.153101977986174,
+          "p95p5": 0.8332587456454162,
+          "min": -0.08834586545621903,
+          "max": 1.064756112529955,
+          "min_time": "2026-11-13 04:51:27.184+08:00",
+          "max_time": "2026-11-13 00:51:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5164953713055134,
+          "p95p5": 0.3145236033805803,
+          "min": -0.08834586545621903,
+          "max": 0.42814950584929434,
+          "min_time": "2026-11-13 04:51:27.184+08:00",
+          "max_time": "2026-11-13 04:19:27.160+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.6307166120252803,
+        "late_mean_minus_raw_baseline_mean": -0.6394749695140634
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8107266849667107,
+          "p95p5": 0.5155746309071905,
+          "min": 0.22939121735608747,
+          "max": 1.0401179023227982,
+          "min_time": "2026-11-13 04:37:27.173+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.41874397223688486,
+          "p95p5": 0.22706002166270028,
+          "min": 0.22939121735608747,
+          "max": 0.6481351895929723,
+          "min_time": "2026-11-13 04:37:27.173+08:00",
+          "max_time": "2026-11-13 05:11:27.201+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.3864592588769207,
+        "late_mean_minus_raw_baseline_mean": -0.3915095888513993
+      },
+      "delta_night_range_new_minus_old": -0.34237529301946323,
+      "delta_abs_late_offset_new_minus_old": -0.2442573531483596,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4602",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 477,
+          "range": 0.8378595715060713,
+          "p95p5": 0.500871448994016,
+          "min": 0.24049218026745223,
+          "max": 1.0783517517735235,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 01:08:27.032+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5813444361503963,
+          "p95p5": 0.2665562389725118,
+          "min": 0.24049218026745223,
+          "max": 0.8218366164178486,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:07:27.197+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.38245336711900846,
+        "late_mean_minus_raw_baseline_mean": -0.37260432799839305
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 477,
+          "range": 0.5950257969955228,
+          "p95p5": 0.23150964809718488,
+          "min": 0.7290686992464728,
+          "max": 1.3240944962419956,
+          "min_time": "2026-11-13 02:00:27.071+08:00",
+          "max_time": "2026-11-13 05:07:27.197+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.46410333821046024,
+          "p95p5": 0.22087355015458898,
+          "min": 0.8599911580315354,
+          "max": 1.3240944962419956,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:07:27.197+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.1165173616625732,
+        "late_mean_minus_raw_baseline_mean": 0.14687705025192876
+      },
+      "delta_night_range_new_minus_old": -0.24283377451054844,
+      "delta_abs_late_offset_new_minus_old": -0.26593600545643525,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4603",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.1330743714333227,
+          "p95p5": 0.6805513341146665,
+          "min": 0.02029930517055245,
+          "max": 1.1533736766038751,
+          "min_time": "2026-11-13 05:37:27.222+08:00",
+          "max_time": "2026-11-13 00:52:27.019+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5150197819548641,
+          "p95p5": 0.3093075187733269,
+          "min": 0.02029930517055245,
+          "max": 0.5353190871254165,
+          "min_time": "2026-11-13 05:37:27.222+08:00",
+          "max_time": "2026-11-13 04:06:27.156+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.5093062224931142,
+        "late_mean_minus_raw_baseline_mean": -0.49797781632513466
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.9568171198597901,
+          "p95p5": 0.617429631501953,
+          "min": 0.07778484610866077,
+          "max": 1.0346019659684509,
+          "min_time": "2026-11-13 05:07:27.197+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.44970458822691484,
+          "p95p5": 0.23771461527675197,
+          "min": 0.07778484610866077,
+          "max": 0.5274894343355756,
+          "min_time": "2026-11-13 05:07:27.197+08:00",
+          "max_time": "2026-11-13 03:59:27.155+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.4996393127165466,
+        "late_mean_minus_raw_baseline_mean": -0.48767669761955473
+      },
+      "delta_night_range_new_minus_old": -0.17625725157353256,
+      "delta_abs_late_offset_new_minus_old": -0.00966690977656759,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZD4703",
+      "role": "ordinary",
+      "is_42_47": true,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.5356736838254068,
+          "p95p5": 1.1445398252485774,
+          "min": -0.24424726707703925,
+          "max": 1.2914264167483676,
+          "min_time": "2026-11-13 04:51:27.184+08:00",
+          "max_time": "2026-11-13 01:05:27.030+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6055007653645879,
+          "p95p5": 0.36811267971166434,
+          "min": -0.24424726707703925,
+          "max": 0.3612534982875486,
+          "min_time": "2026-11-13 04:51:27.184+08:00",
+          "max_time": "2026-11-13 05:23:27.210+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.9675323455345333,
+        "late_mean_minus_raw_baseline_mean": -0.9458257682881188
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.1743366320423418,
+          "p95p5": 0.8285503408059052,
+          "min": 0.058322982027399384,
+          "max": 1.2326596140697412,
+          "min_time": "2026-11-13 05:07:27.197+08:00",
+          "max_time": "2026-11-12 23:02:26.942+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4998168117747035,
+          "p95p5": 0.2830710325674205,
+          "min": 0.058322982027399384,
+          "max": 0.5581397938021029,
+          "min_time": "2026-11-13 05:07:27.197+08:00",
+          "max_time": "2026-11-13 05:34:27.221+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -0.7443465727126091,
+        "late_mean_minus_raw_baseline_mean": -0.7221552618589144
+      },
+      "delta_night_range_new_minus_old": -0.36133705178306497,
+      "delta_abs_late_offset_new_minus_old": -0.2231857728219242,
+      "old_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": true,
+        "fit_only": false,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZJ5",
+      "role": "J",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8412158203616642,
+          "p95p5": 0.4650967569293323,
+          "min": 0.8807653692667656,
+          "max": 1.7219811896284298,
+          "min_time": "2026-11-13 01:09:27.033+08:00",
+          "max_time": "2026-11-13 05:36:27.222+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5676303889294845,
+          "p95p5": 0.277832429884878,
+          "min": 1.1543508006989454,
+          "max": 1.7219811896284298,
+          "min_time": "2026-11-13 04:15:27.155+08:00",
+          "max_time": "2026-11-13 05:36:27.222+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.3222185333262715,
+        "late_mean_minus_raw_baseline_mean": 0.36013037603952136
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.2529494467561282,
+          "p95p5": 1.0864263542432908,
+          "min": 1.102491084782021,
+          "max": 2.3554405315381493,
+          "min_time": "2026-11-12 23:40:26.974+08:00",
+          "max_time": "2026-11-13 04:44:27.179+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4785683271329617,
+          "p95p5": 0.2966513255739929,
+          "min": 1.8768722044051875,
+          "max": 2.3554405315381493,
+          "min_time": "2026-11-13 04:15:27.155+08:00",
+          "max_time": "2026-11-13 04:44:27.179+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.0005773973983176,
+        "late_mean_minus_raw_baseline_mean": 1.0319468102038933
+      },
+      "delta_night_range_new_minus_old": 0.411733626394464,
+      "delta_abs_late_offset_new_minus_old": 0.6783588640720462,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZJ6",
+      "role": "J",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 0.8870753709367853,
+          "p95p5": 0.37250460307868616,
+          "min": 0.6430657664819381,
+          "max": 1.5301411374187235,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 05:35:27.221+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6142472636598262,
+          "p95p5": 0.3216418629525173,
+          "min": 0.9158938737588973,
+          "max": 1.5301411374187235,
+          "min_time": "2026-11-13 05:25:27.211+08:00",
+          "max_time": "2026-11-13 05:35:27.221+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.16618679634605105,
+        "late_mean_minus_raw_baseline_mean": 0.19651765635748752
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.3646350753079755,
+          "p95p5": 1.1328785207886627,
+          "min": 0.9324219037628325,
+          "max": 2.297056979070808,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 05:13:27.202+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.5550788950539993,
+          "p95p5": 0.2718752695845086,
+          "min": 1.7419780840168086,
+          "max": 2.297056979070808,
+          "min_time": "2026-11-13 05:24:27.211+08:00",
+          "max_time": "2026-11-13 05:13:27.202+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.0433952323813527,
+        "late_mean_minus_raw_baseline_mean": 1.073881124794374
+      },
+      "delta_night_range_new_minus_old": 0.4775597043711901,
+      "delta_abs_late_offset_new_minus_old": 0.8772084360353016,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZJ7",
+      "role": "J",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.0594963553434393,
+          "p95p5": 0.5785825293509943,
+          "min": 0.7440955191826427,
+          "max": 1.8035918745260822,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 05:31:27.218+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.534220917885952,
+          "p95p5": 0.33926738973869,
+          "min": 1.26937095664013,
+          "max": 1.8035918745260822,
+          "min_time": "2026-11-13 04:34:27.171+08:00",
+          "max_time": "2026-11-13 05:31:27.218+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.3756441993347168,
+        "late_mean_minus_raw_baseline_mean": 0.44237194038344696
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.6174098795613265,
+          "p95p5": 1.3153007841388595,
+          "min": 1.017558535913919,
+          "max": 2.6349684154752455,
+          "min_time": "2026-11-13 01:08:27.032+08:00",
+          "max_time": "2026-11-13 04:44:27.179+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.4826045971674944,
+          "p95p5": 0.3789257712885119,
+          "min": 2.152363818307751,
+          "max": 2.6349684154752455,
+          "min_time": "2026-11-13 05:45:27.230+08:00",
+          "max_time": "2026-11-13 04:44:27.179+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.2107273054989403,
+        "late_mean_minus_raw_baseline_mean": 1.2657391626186727
+      },
+      "delta_night_range_new_minus_old": 0.5579135242178872,
+      "delta_abs_late_offset_new_minus_old": 0.8350831061642234,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZJ8",
+      "role": "J",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 1.3593834876483792,
+          "p95p5": 0.976558384343978,
+          "min": 0.9727516653210766,
+          "max": 2.332135152969456,
+          "min_time": "2026-11-13 00:51:27.019+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.6368931477602255,
+          "p95p5": 0.3553952291385274,
+          "min": 1.6952420052092303,
+          "max": 2.332135152969456,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 0.8235571069974479,
+        "late_mean_minus_raw_baseline_mean": 0.8644750367406255
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 479,
+          "range": 2.0118911031702584,
+          "p95p5": 1.6009409365867049,
+          "min": 1.145188440551774,
+          "max": 3.1570795437220327,
+          "min_time": "2026-11-12 23:40:26.974+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 0.7603498325373561,
+          "p95p5": 0.38092853697092144,
+          "min": 2.3967297111846766,
+          "max": 3.1570795437220327,
+          "min_time": "2026-11-13 05:27:27.215+08:00",
+          "max_time": "2026-11-13 04:47:27.181+08:00"
+        },
+        "late_median_minus_raw_baseline_median": 1.575381108454378,
+        "late_mean_minus_raw_baseline_mean": 1.5852121128277379
+      },
+      "delta_night_range_new_minus_old": 0.6525076155218792,
+      "delta_abs_late_offset_new_minus_old": 0.7518240014569302,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": true,
+        "spread_drop": false,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    },
+    {
+      "marker": "ZXJ6",
+      "role": "XJ",
+      "is_42_47": false,
+      "old_22_02_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 7.061375082853873,
+          "p95p5": 5.7660942040846095,
+          "min": -4.371128322322777,
+          "max": 2.690246760531096,
+          "min_time": "2026-11-13 05:01:27.192+08:00",
+          "max_time": "2026-11-12 23:01:26.941+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 2.731206932027275,
+          "p95p5": 1.8938694672719094,
+          "min": -4.371128322322777,
+          "max": -1.6399213902955019,
+          "min_time": "2026-11-13 05:01:27.192+08:00",
+          "max_time": "2026-11-13 03:03:27.111+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -5.1194076655393586,
+        "late_mean_minus_raw_baseline_mean": -5.03818821460489
+      },
+      "new_22_07_modal": {
+        "night_23_07": {
+          "count": 480,
+          "range": 7.435878208403347,
+          "p95p5": 6.1130342169239515,
+          "min": -4.748810952955736,
+          "max": 2.68706725544761,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-12 23:01:26.941+08:00"
+        },
+        "late_03_06": {
+          "count": 180,
+          "range": 2.4713195155175534,
+          "p95p5": 1.7842761917315406,
+          "min": -4.748810952955736,
+          "max": -2.277491437438183,
+          "min_time": "2026-11-13 04:48:27.181+08:00",
+          "max_time": "2026-11-13 05:30:27.216+08:00"
+        },
+        "late_median_minus_raw_baseline_median": -6.007985327097206,
+        "late_mean_minus_raw_baseline_mean": -5.818939667296473
+      },
+      "delta_night_range_new_minus_old": 0.37450312554947374,
+      "delta_abs_late_offset_new_minus_old": 0.8885776615578473,
+      "old_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": false,
+        "spread_drop": true,
+        "guard_drop": false,
+        "gain": 1.0
+      },
+      "new_identity": {
+        "use": true,
+        "learn": false,
+        "fit_only": false,
+        "spread_drop": true,
+        "guard_drop": false,
+        "gain": 1.0
+      }
+    }
+  ],
+  "array_artifact": "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round10_history_design\\reports\\history_window_sensitivity.npz",
+  "array_sha256": "91337861fa4dd4a3cbf96caeca8327ab1d25e6cebec2c13ee3331884844c93a6",
+  "helper_sha256": {
+    "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round4_window_causality\\tools\\yd_stage_audit.py": "570cb49ff047391ec240bdac0feabc9288a3b43ebb501a6478fa3077f3944741",
+    "E:\\Wiz\\GZMetro-Cpp\\module\\modal-selfcal\\modelselfcal-1016\\V54-Astra\\round9_left_42_47_1112\\tools\\algorithm_cause_audit.py": "313f9e0cf32a94cc59fb1bd4b6a8778fd9e258760478e1e0601a9e42757d8e79"
+  },
+  "script_sha256": "ddf79bd1dd4b2cf34751b614106634cd4ec006a347beef6d3338cb852d3b8ce7",
+  "limits": [
+    "No S2/S1 output, Y behavior, new native state serialization, restart, cold start or ten-night whole-device acceptance was tested.",
+    "Range and offset reduction do not establish preserved true movement or physical accuracy.",
+    "Only historical data were enlarged. This does not test learning current-night future data or online refitting during the current disturbance.",
+    "The original frozen native comparison validates the reconstruction path, not native execution of the enlarged-history proposal."
+  ]
+}

@@ -1,0 +1,93 @@
+--- reviewed/ModalSelfCal.h
++++ delivery/ModalSelfCal.h
+@@ -1,11 +1,14 @@
+ #pragma once
++// V54-Astra delivery 2026-11-16: current_fade07 + fixed X publication [23:00,07:00).
++// The paired State/Apply APIs publish raw X outside this window; Y is unchanged.
++// This release accepts matching Astra HISTORY1 snapshots (see bundled state manifest).
+ // V54-Astra: X-only cross-night regression energy reliability control.
+ // Input/output x/y are PIXELS (user confirmed 2026-11-16).
+ // Preserve V54 W3/modal/S2/S1 processing for reliable rows. Only ordinary
+ // nonlearn regression rows receive a history-derived gain in [0,1].
+ // Historical full-basis energy is a reliability proxy, not physical truth
+ // or a guarantee for final nightly range. Intentional fit_only rows are unchanged.
+-// New snapshots are required. Legacy V54/earlier Astra states must be rebuilt
++// Legacy V54/incompatible earlier Astra snapshots must be rebuilt
+ // by replaying raw history; their cached A/cbar values are not accepted.
+ 
+ #include <cstdint>
+@@ -27,9 +30,9 @@
+     // through learn_end_h <= x_apply_end_h <= 36. Y keeps apply_end_h.
+     // An explicit X end or enabled exit fade must finish its ramp by hour 36.
+     double x_apply_end_h = 0.0;
+-    // Diagnostic: keep enhancement state through the exit ramp and blend its
+-    // contribution by gate. Entry ramp and default false behavior are unchanged.
+-    bool fade_x_enhancements_with_gate = false;
++    // Reviewed current_fade07 default. Keep internal enhancement state through
++    // the exit ramp; paired State publishes raw X from 07:00 onward.
++    bool fade_x_enhancements_with_gate = true;
+     double ramp_min = 20.0;         // 进 / 出斜坡时长（分钟）
+     double cadence_s = 60.0;        // 现场帧间隔（秒），只用于估算期望帧数
+ 
+@@ -119,6 +122,14 @@
+     bool modes_x = false, modes_y = false;
+ };
+ 
++// Describes the published X coordinate source, not correction success.
++// A source change at 07:00 is an observation-segment boundary.
++enum class ModalSelfCalXSource { NoOutput, RawObservation, NightCorrection };
++
++constexpr bool IsAstraNightCorrectionHour(double night_hour) noexcept {
++    return night_hour >= 23.0 && night_hour < 31.0;
++}
++
+ struct ModalSelfCalResult {
+     bool output_ready = false;
+     bool duplicate = false;
+@@ -129,10 +140,13 @@
+     std::vector<double> correction_y;
+     ModalSelfCalFrameInfo info_x;
+     ModalSelfCalFrameInfo info_y;
+-};
+-
+-// ===========================================================================
+-// 面向对象式状态类 (与 V50/V51/V52/V53 接口 100% 兼容)
++    // x/correction_x are published values; info_x remains INTERNAL diagnostics.
++    // NightCorrection means the night output path, not guaranteed successful correction.
++    ModalSelfCalXSource x_source = ModalSelfCalXSource::NoOutput;
++};
++
++// ===========================================================================
++// 面向对象式状态类：保留既有调用方法；本版 cpp/h 必须一起重新编译客户端
+ // ===========================================================================
+ class ModalSelfCalState {
+ public:
+@@ -149,7 +163,9 @@
+     bool ImportState(const std::string& bytes, ModalSelfCalResumeInfo* resume,
+                      std::string* error = nullptr);
+ 
+-    // 单帧处理核心接口：内部执行 W=3预处理 -> V51模态求解 -> 方案D温和物理后处理
++    // 每帧均处理以维护历史和缓存。X仅23:00(含)—次日07:00(不含)发布修后值，
++    // 其余时间发布同帧raw X；Y保持核心输出。ROI无效点须由调用方填NaN。
++    // 内部顺序：W3 -> 模态 -> S2/S1 -> X发布选择。时间戳使用Unix毫秒。
+     bool Process(int64_t timestamp_ms, const std::vector<double>& raw_x,
+                  const std::vector<double>& raw_y, ModalSelfCalResult* result,
+                  std::string* error = nullptr, bool history_replay = false);
+@@ -167,7 +183,7 @@
+ };
+ 
+ // ===========================================================================
+-// 函数式全局接口 (与 modelselfcal-1016 全局单例接口 100% 兼容)
++// 既有函数式全局接口；建议使用上方 State::Process 取得 output_ready 和 x_source
+ // ===========================================================================
+ bool InitModalSelfCal(const std::string& device_id, const std::vector<std::string>& names,
+                       std::string* err = nullptr);
+@@ -197,6 +213,8 @@
+ using gzmetro_msc::ModalSelfCalFrameInfo;
+ using gzmetro_msc::ModalSelfCalResumeInfo;
+ using gzmetro_msc::ModalSelfCalResult;
++using gzmetro_msc::ModalSelfCalXSource;
++using gzmetro_msc::IsAstraNightCorrectionHour;
+ using gzmetro_msc::ModalSelfCalState;
+ using gzmetro_msc::ModalSelfCalAxis;
+ using gzmetro_msc::InitModalSelfCal;

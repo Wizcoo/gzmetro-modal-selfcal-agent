@@ -1,0 +1,14 @@
+{
+  "compile_exit_code": 0,
+  "source_stable_during_compile": true,
+  "runtime_executed": false,
+  "source_sha256": {
+    "V54-Astra/round8_release_111315/source/ModalSelfCal.cpp": "EFA35498067C0FBDEF7D3D7666FB32F024889AA0A6E533C5E2EFE0CE082D6210",
+    "V54-Astra/round8_release_111315/tools/verify_release.cpp": "567B32D47A0D449F9C4151606008070D1ED3DD82667D063811C68B8973B35E48",
+    "V54-Astra/round8_release_111315/source/ModalSelfCal.h": "9E9720EED28B0B914891BFB24D00902D9ECC0F298109F1F5C995410CC77AF2B9"
+  },
+  "command": "g++ -std=c++17 -O2 -Wall -Wextra -Wno-unused-parameter -Isource tools/verify_release.cpp source/ModalSelfCal.cpp -o build/verify_release.exe",
+  "tool_syntax_only_strict_exit_code": 0,
+  "scope": "Compile and link only; external state roundtrip, rejection, duplicate and synthetic runtime checks NOT executed",
+  "binary_sha256": "FFAE4AF43CA1535CD14A6F24DFC52326065C6CE8A391C808F5745EFA0FCC4F67"
+}
